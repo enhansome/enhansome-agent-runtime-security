@@ -29,7 +29,7 @@
             "last_commit": "2026-08-13T14:52:31Z",
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 106
+            "stars": 107
           }
         },
         {
@@ -43,7 +43,7 @@
             "last_commit": "2026-08-13T14:52:31Z",
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 106
+            "stars": 107
           }
         },
         {
@@ -101,7 +101,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-13T15:10:14Z",
+                "last_commit": "2026-08-14T13:21:22Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -136,7 +136,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-13T14:19:55Z",
+                "last_commit": "2026-08-13T15:33:04Z",
                 "owner": "highflame-ai",
                 "repo": "zeroid",
                 "stars": 156
@@ -150,10 +150,10 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-13T13:29:48Z",
+                "last_commit": "2026-08-14T03:06:14Z",
                 "owner": "opena2a-org",
                 "repo": "agent-identity-management",
-                "stars": 54
+                "stars": 55
               }
             },
             {
@@ -247,7 +247,7 @@
                 "last_commit": "2026-08-03T18:19:30Z",
                 "owner": "malwarejake",
                 "repo": "CUSTODY-framework",
-                "stars": 54
+                "stars": 55
               }
             },
             {
@@ -286,7 +286,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Python",
-                "last_commit": "2026-08-05T17:43:26Z",
+                "last_commit": "2026-08-14T12:46:03Z",
                 "owner": "jwillisSFT",
                 "repo": "agcp-spec",
                 "stars": 6
@@ -308,7 +308,7 @@
                     "last_commit": "2026-08-12T15:57:45Z",
                     "owner": "modelcontextprotocol",
                     "repo": "modelcontextprotocol",
-                    "stars": 8947
+                    "stars": 8956
                   }
                 },
                 {
@@ -425,7 +425,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-13T15:14:55.375Z",
+    "last_updated": "2026-08-14T15:07:25.866Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
