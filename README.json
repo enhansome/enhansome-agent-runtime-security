@@ -26,7 +26,7 @@
           "repo_info": {
             "archived": false,
             "language": "Makefile",
-            "last_commit": "2026-08-13T14:52:31Z",
+            "last_commit": "2026-08-14T17:38:07Z",
             "owner": "dickhardt",
             "repo": "AAuth",
             "stars": 107
@@ -40,7 +40,7 @@
           "repo_info": {
             "archived": false,
             "language": "Makefile",
-            "last_commit": "2026-08-13T14:52:31Z",
+            "last_commit": "2026-08-14T17:38:07Z",
             "owner": "dickhardt",
             "repo": "AAuth",
             "stars": 107
@@ -101,7 +101,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-14T13:21:22Z",
+                "last_commit": "2026-08-14T18:30:53Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -178,7 +178,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "HTML",
-                "last_commit": "2026-08-12T13:33:04Z",
+                "last_commit": "2026-08-15T10:54:16Z",
                 "owner": "pic-protocol",
                 "repo": "pic-spec",
                 "stars": 22
@@ -305,10 +305,10 @@
                   "repo_info": {
                     "archived": false,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-12T15:57:45Z",
+                    "last_commit": "2026-08-14T18:39:22Z",
                     "owner": "modelcontextprotocol",
                     "repo": "modelcontextprotocol",
-                    "stars": 8956
+                    "stars": 8965
                   }
                 },
                 {
@@ -425,7 +425,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T15:07:25.866Z",
+    "last_updated": "2026-08-15T14:39:13.773Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
