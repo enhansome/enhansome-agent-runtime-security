@@ -101,7 +101,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-14T18:30:53Z",
+                "last_commit": "2026-08-16T12:17:10Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -153,7 +153,7 @@
                 "last_commit": "2026-08-14T03:06:14Z",
                 "owner": "opena2a-org",
                 "repo": "agent-identity-management",
-                "stars": 55
+                "stars": 56
               }
             },
             {
@@ -178,7 +178,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "HTML",
-                "last_commit": "2026-08-15T10:54:16Z",
+                "last_commit": "2026-08-15T17:05:41Z",
                 "owner": "pic-protocol",
                 "repo": "pic-spec",
                 "stars": 22
@@ -192,7 +192,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "HTML",
-                "last_commit": "2026-04-12T01:58:04Z",
+                "last_commit": "2026-08-16T01:18:36Z",
                 "owner": "Kadikoy1",
                 "repo": "ais-1",
                 "stars": 8
@@ -308,7 +308,7 @@
                     "last_commit": "2026-08-14T18:39:22Z",
                     "owner": "modelcontextprotocol",
                     "repo": "modelcontextprotocol",
-                    "stars": 8965
+                    "stars": 8970
                   }
                 },
                 {
@@ -425,7 +425,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T14:39:13.773Z",
+    "last_updated": "2026-08-16T14:39:08.118Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
