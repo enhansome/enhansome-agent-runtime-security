@@ -101,7 +101,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-16T12:17:10Z",
+                "last_commit": "2026-08-17T13:03:41Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -261,7 +261,7 @@
                 "last_commit": "2026-03-05T14:59:46Z",
                 "owner": "gendigitalinc",
                 "repo": "aarts",
-                "stars": 17
+                "stars": 18
               }
             },
             {
@@ -305,10 +305,10 @@
                   "repo_info": {
                     "archived": false,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-14T18:39:22Z",
+                    "last_commit": "2026-08-17T08:08:36Z",
                     "owner": "modelcontextprotocol",
                     "repo": "modelcontextprotocol",
-                    "stars": 8970
+                    "stars": 8976
                   }
                 },
                 {
@@ -322,7 +322,7 @@
                     "last_commit": "2026-08-04T22:59:33Z",
                     "owner": "secure-agentic-framework",
                     "repo": "saf-mcp",
-                    "stars": 356
+                    "stars": 357
                   }
                 },
                 {
@@ -373,7 +373,7 @@
                 "last_commit": "2026-08-04T22:59:33Z",
                 "owner": "secure-agentic-framework",
                 "repo": "saf-mcp",
-                "stars": 356
+                "stars": 357
               }
             },
             {
@@ -425,7 +425,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T14:39:08.118Z",
+    "last_updated": "2026-08-17T14:45:25.389Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
