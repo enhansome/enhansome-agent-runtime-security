@@ -101,7 +101,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "Go",
-                "last_commit": "2026-08-17T13:03:41Z",
+                "last_commit": "2026-08-18T14:26:50Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -139,7 +139,7 @@
                 "last_commit": "2026-08-13T15:33:04Z",
                 "owner": "highflame-ai",
                 "repo": "zeroid",
-                "stars": 156
+                "stars": 157
               }
             },
             {
@@ -305,10 +305,10 @@
                   "repo_info": {
                     "archived": false,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-17T08:08:36Z",
+                    "last_commit": "2026-08-17T20:21:59Z",
                     "owner": "modelcontextprotocol",
                     "repo": "modelcontextprotocol",
-                    "stars": 8976
+                    "stars": 8987
                   }
                 },
                 {
@@ -333,10 +333,10 @@
                   "repo_info": {
                     "archived": false,
                     "language": "Jupyter Notebook",
-                    "last_commit": "2026-08-13T15:04:02Z",
+                    "last_commit": "2026-08-18T03:30:01Z",
                     "owner": "cosai-oasis",
                     "repo": "ws4-secure-design-agentic-systems",
-                    "stars": 127
+                    "stars": 128
                   }
                 },
                 {
@@ -384,10 +384,10 @@
               "repo_info": {
                 "archived": false,
                 "language": "Jupyter Notebook",
-                "last_commit": "2026-08-13T15:04:02Z",
+                "last_commit": "2026-08-18T03:30:01Z",
                 "owner": "cosai-oasis",
                 "repo": "ws4-secure-design-agentic-systems",
-                "stars": 127
+                "stars": 128
               }
             },
             {
@@ -425,7 +425,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T14:45:25.389Z",
+    "last_updated": "2026-08-18T14:52:46.983Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
