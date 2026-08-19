@@ -15,7 +15,7 @@
             "last_commit": "2026-08-14T17:38:07Z",
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 107
+            "stars": 108
           }
         },
         {
@@ -30,7 +30,7 @@
             "last_commit": "2026-08-14T17:38:07Z",
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 107
+            "stars": 108
           }
         },
         {
@@ -92,7 +92,7 @@
                 "archived": false,
                 "id": 930322459,
                 "language": "Go",
-                "last_commit": "2026-08-19T12:14:22Z",
+                "last_commit": "2026-08-19T14:28:26Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -302,7 +302,7 @@
                         "last_commit": "2026-08-17T20:21:59Z",
                         "owner": "modelcontextprotocol",
                         "repo": "modelcontextprotocol",
-                        "stars": 8997
+                        "stars": 8998
                       }
                     },
                     {
@@ -431,7 +431,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:16:31.042Z",
+    "last_updated": "2026-08-19T14:53:23.553Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_id": 1165096078,
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
