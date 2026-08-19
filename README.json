@@ -1,22 +1,7 @@
 {
   "items": [
     {
-      "description": "Projects using Linux security primitives (and a few Mac exceptions) such as bubblewrap, KVM/libkrun, Landlock, Linux namespaces, cgroups, and containers, seccomp, MicroVMs, gVisor or WebAssembly (WASM) for agent runtime sandboxing or isolation.\nFor a structured approach to evaluating and comparing sandboxes, read The Agent Sandbox Taxonomy. A few tools of potential interest:\nContainers and Linux namespaces: ExitBox, code-sandboxes, Kilntainers (MCP server routing agent tool calls to Docker/Podman, E2B, Modal, or WASM sandboxes), nanoclaw, yolobox, agentbox, construct-cli, and ctenv all rely on standard Linux container isolation. Scion runs agents in isolated Docker/Kubernetes containers with per-agent identities, credentials, and workspaces. try and usand use Linux namespaces via to let commands run in a contained environment. nsjail is Google's lightweight process isolation tool combining Linux namespaces, cgroups, and seccomp-bpf. sandbox (Cloudflare) provides a seccomp library for syscall filtering. systemd's exec security settings and setpriv serve as convenient declarative frontends for composing namespaces, seccomp, and capabilities. Axocoatl (site) is a Rust multi-agent runtime with capabilities dropped. Running AI Agents in Devcontainers is a practical guide to using as flexible, fully-custom agent sandboxes.\nBubblewrap: bubblewrap is an unprivileged sandboxing tool that backs several projects listed here. It can be applied directly to Claude Code or OpenCode. Associated tools include nixwrap, a Nix-declarative wrapper, sandbox-run a minimal CLI around it, Grauwolf's sandbox-run a per-project wrapper that isolates file writes, tmp, and tool state, and flar a multi-agent bubblewrap harness with isolated-network-namespace egress proxy.\nLandlock: Landlock is a stackable LSM for unprivileged filesystem and network restriction. island is the go-to sandbox tool. landrun and rstrict are CLI tools for restricting process access. landdown is a shebang-based Landlock sandbox for shell scripts. Litterbox combines Landlock with Linux namespaces. Cursor uses Landlock. aide is a Landlock-first multi-agent launcher.\nSandboxed and virtualized runtimes: gVisor intercepts Linux syscalls to shrink the attack surface for containerized workloads without full hardware virtualization (see also MAGI: Multi-Agent gVisor Isolation for a practical walkthrough). Chimera takes a different approach: same-ISA dynamic binary translation intercepts every guest syscall in userspace without a VM, container, or kernel features (paper). Kata Containers provide lightweight virtual machines with a standard container interface. libkrun is a library for running lightweight KVM-backed VMs that serves as the hypervisor isolation layer for boxlite, brood-box, krunai, microsandbox, and several other agent sandboxes in this list. go-microvm is a Go framework for running OCI images as microVMs via libkrun. nerdbox is a containerd runtime shim that runs each container in a libkrun VM, rootless and cross-platform. styrolite is Edera's container runtime engine that runs containers inside VM guests via a type 1 paravirtualized hypervisor (see the Edera hypervisor paper). microvm.nix is a Nix Flake for declaratively building and running NixOS MicroVMs across hypervisors (cloud-hypervisor, Firecracker, QEMU, crosvm, etc.) Lima (CNCF Incubating) wraps QEMU, Apple Virtualization.framework, and krunkit as VM backends and powers Colima and Rancher Desktop; v2.0 added an MCP server so AI agents can operate safely inside VMs. vmexec is a zero-setup CLI for running commands in throwaway VMs built on rust-vmm crates. Spindle is Tangled's open-source QEMU MicroVM runner that leverages Nix/NixOS. The OpenClaw MicroVM walkthrough is a practical blog post demonstrating MicroVM-based agent sandboxing using cloud-hypervisor, with network egress logging via nftables/unbound and secret injection through virtiofs mounts.\nWASM and browser-grade isolation: langchain-sandbox and Pyodide bring Python into WASM for sandboxed agent code execution; RLBox provides WASM-based library sandboxing for isolating untrusted components within a process; wassette applies WASM at fine-grained component boundaries. V8 Isolates offer a lightweight per-request isolation model as an alternative to containers or VMs — see also Cloudflare's Dynamic Worker Loader for on-demand per-agent V8 sandboxes with capability-scoped env bindings and optional network blocking. Deno Deploy Sandbox is a managed sandbox API that gives each execution a dedicated Firecracker microVM.",
-      "items": [],
-      "title": "Sandboxing & Isolation"
-    },
-    {
-      "description": "Projects that instrument agents for security observability, which could be useful for provenance tracking and to feed policy decision points (PDPs), including gateways, proxies, eBPF-based tools, attestation frameworks, policy engines, and tracing systems.",
-      "items": [],
-      "title": "Provenance, Instrumentation & Observability"
-    },
-    {
-      "description": "Projects and technologies that credibly separate (isolate) credentials and tokens from the main agent runtime.\nOther secret management tools of potential interest include: sops, fnox, dotenvx, varlock, and envio.",
-      "items": [],
-      "title": "Secrets Management & Isolation"
-    },
-    {
-      "description": "Specs, proposals, reference implementations, extensions, and ideas addressing agent identity and credentials that capture provenance, intent, and integrity. For a good birds-eye overview of this space, see Andrew Green's overview of agent auth solutions.",
+      "description": "Specs, proposals, reference implementations, extensions, and ideas addressing agent identity and credentials that capture provenance, intent, and integrity. For a good birds-eye overview of this space, see Andrew Green's overview of agent auth solutions.\nSeveral good ideas are also explored in blog posts and articles, including CSA Agentic AI IAM Whitepaper, DCR for MCP, SPIFFE and OAuth, Verifiable Credentials for AI, Continuous Authorization, Delegated Authorization, Delegation patterns, Cedar delegation for OpenClaw subagents (policy-aware agent loop demo), Riptides, Encoding User Intent, ID-JAG, OAuth Limitations for Agents, Qualified VDRs, Agents and Payments Identity, Ambient Mesh, Token-Based Access Control, Applicability of Standards, Chaining and Nesting for Lineage, and FGA for Agent Authorization.",
       "items": [
         {
           "node_type": "item",
@@ -25,6 +10,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1083355209,
             "language": "Makefile",
             "last_commit": "2026-08-14T17:38:07Z",
             "owner": "dickhardt",
@@ -39,6 +25,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1083355209,
             "language": "Makefile",
             "last_commit": "2026-08-14T17:38:07Z",
             "owner": "dickhardt",
@@ -53,6 +40,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1173370009,
             "language": "Python",
             "last_commit": "2026-04-20T20:43:36Z",
             "owner": "agent-intent",
@@ -67,6 +55,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1200201135,
             "language": "Go",
             "last_commit": "2026-06-12T23:16:08Z",
             "owner": "aramase",
@@ -81,6 +70,7 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 1224050644,
             "language": null,
             "last_commit": "2026-04-28T23:07:42Z",
             "owner": "clawdreyhepburn",
@@ -100,8 +90,9 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 930322459,
                 "language": "Go",
-                "last_commit": "2026-08-18T14:26:50Z",
+                "last_commit": "2026-08-19T12:14:22Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 175
@@ -114,6 +105,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1150940043,
                 "language": "Python",
                 "last_commit": "2026-08-13T04:15:11Z",
                 "owner": "dns-aid",
@@ -135,11 +127,12 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1184162680,
                 "language": "Go",
-                "last_commit": "2026-08-13T15:33:04Z",
+                "last_commit": "2026-08-19T06:00:39Z",
                 "owner": "highflame-ai",
                 "repo": "zeroid",
-                "stars": 157
+                "stars": 158
               }
             },
             {
@@ -149,6 +142,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1070451287,
                 "language": "Go",
                 "last_commit": "2026-08-14T03:06:14Z",
                 "owner": "opena2a-org",
@@ -163,6 +157,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1138044980,
                 "language": null,
                 "last_commit": "2026-03-05T13:49:19Z",
                 "owner": "openagentidentityprotocol",
@@ -177,6 +172,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1110356619,
                 "language": "HTML",
                 "last_commit": "2026-08-15T17:05:41Z",
                 "owner": "pic-protocol",
@@ -191,6 +187,7 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1195082235,
                 "language": "HTML",
                 "last_commit": "2026-08-16T01:18:36Z",
                 "owner": "Kadikoy1",
@@ -205,18 +202,13 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 1108332437,
                 "language": null,
                 "last_commit": "2026-02-28T10:49:32Z",
                 "owner": "kahalewai",
                 "repo": "agbac",
                 "stars": 8
               }
-            },
-            {
-              "node_type": "item",
-              "title": "Specification Compendium (naftiko)",
-              "description": null,
-              "children": []
             }
           ]
         }
@@ -224,209 +216,224 @@
       "title": "Agent Identity & Credentials"
     },
     {
-      "description": "",
-      "items": [],
-      "title": "References"
-    },
-    {
-      "description": "Papers, frameworks, and documents discussing agent runtime security, threat models, and recommended mitigations.",
+      "description": null,
       "items": [
         {
-          "node_type": "group",
-          "title": "Threat models and top-10 style frameworks",
-          "description": null,
           "children": [
             {
-              "node_type": "item",
-              "title": "CUSTODY",
-              "description": "containment framework for autonomous agents, classifying by Level/Mandate/Reach and addressing capability accretion drift",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Python",
-                "last_commit": "2026-08-03T18:19:30Z",
-                "owner": "malwarejake",
-                "repo": "CUSTODY-framework",
-                "stars": 55
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "AARTS",
-              "description": null,
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": null,
-                "last_commit": "2026-03-05T14:59:46Z",
-                "owner": "gendigitalinc",
-                "repo": "aarts",
-                "stars": 18
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "Zones of Distrust (ZoD)",
-              "description": null,
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": null,
-                "last_commit": "2026-05-09T04:57:39Z",
-                "owner": "bluvibytes",
-                "repo": "zone-of-distrust",
-                "stars": 11
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "AGCP: Agentic Governance Control Plane",
-              "description": null,
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Python",
-                "last_commit": "2026-08-14T12:46:03Z",
-                "owner": "jwillisSFT",
-                "repo": "agcp-spec",
-                "stars": 6
-              }
-            },
-            {
               "node_type": "group",
-              "title": "MCP-focused security documents:",
+              "title": "Threat models and top-10 style frameworks",
               "description": null,
               "children": [
                 {
                   "node_type": "item",
-                  "title": "SEP-1933: Workload Identity Federation for MCP",
-                  "description": null,
+                  "title": "CUSTODY",
+                  "description": "containment framework for autonomous agents, classifying by Level/Mandate/Reach and addressing capability accretion drift",
                   "children": [],
                   "repo_info": {
                     "archived": false,
-                    "language": "TypeScript",
-                    "last_commit": "2026-08-17T20:21:59Z",
-                    "owner": "modelcontextprotocol",
-                    "repo": "modelcontextprotocol",
-                    "stars": 8987
+                    "id": 1322055568,
+                    "language": "Python",
+                    "last_commit": "2026-08-03T18:19:30Z",
+                    "owner": "malwarejake",
+                    "repo": "CUSTODY-framework",
+                    "stars": 56
                   }
                 },
                 {
                   "node_type": "item",
-                  "title": "SAFE-MCP",
+                  "title": "AARTS",
                   "description": null,
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "id": 1173605265,
+                    "language": null,
+                    "last_commit": "2026-03-05T14:59:46Z",
+                    "owner": "gendigitalinc",
+                    "repo": "aarts",
+                    "stars": 18
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Zones of Distrust (ZoD)",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1150690757,
+                    "language": null,
+                    "last_commit": "2026-05-09T04:57:39Z",
+                    "owner": "bluvibytes",
+                    "repo": "zone-of-distrust",
+                    "stars": 11
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "AGCP: Agentic Governance Control Plane",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1172936533,
+                    "language": "Python",
+                    "last_commit": "2026-08-14T12:46:03Z",
+                    "owner": "jwillisSFT",
+                    "repo": "agcp-spec",
+                    "stars": 7
+                  }
+                },
+                {
+                  "node_type": "group",
+                  "title": "MCP-focused security documents:",
+                  "description": null,
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "SEP-1933: Workload Identity Federation for MCP",
+                      "description": null,
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 862570523,
+                        "language": "TypeScript",
+                        "last_commit": "2026-08-17T20:21:59Z",
+                        "owner": "modelcontextprotocol",
+                        "repo": "modelcontextprotocol",
+                        "stars": 8997
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "SAFE-MCP",
+                      "description": null,
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1011515224,
+                        "language": "Python",
+                        "last_commit": "2026-08-04T22:59:33Z",
+                        "owner": "secure-agentic-framework",
+                        "repo": "saf-mcp",
+                        "stars": 358
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "CoSAI MCP Security",
+                      "description": null,
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 936656487,
+                        "language": "Jupyter Notebook",
+                        "last_commit": "2026-08-19T11:05:42Z",
+                        "owner": "cosai-oasis",
+                        "repo": "ws4-secure-design-agentic-systems",
+                        "stars": 129
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "MCP Server Security Standard",
+                      "description": null,
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1134830523,
+                        "language": null,
+                        "last_commit": "2026-03-12T15:27:47Z",
+                        "owner": "mcp-security-standard",
+                        "repo": "mcp-server-security-standard",
+                        "stars": 74
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "node_type": "group",
+              "title": "Cryptographic integrity of tools, models, and data:",
+              "description": null,
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "SAFE-M-2 Tool Description Integrity",
+                  "description": ", SAFE-M-30 Data Source Integrity, SAFE-M-34 Model Integrity",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1011515224,
                     "language": "Python",
                     "last_commit": "2026-08-04T22:59:33Z",
                     "owner": "secure-agentic-framework",
                     "repo": "saf-mcp",
-                    "stars": 357
+                    "stars": 358
                   }
                 },
                 {
                   "node_type": "item",
-                  "title": "CoSAI MCP Security",
+                  "title": "CoSAI Crypto Verification of Resources",
                   "description": null,
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "id": 936656487,
                     "language": "Jupyter Notebook",
-                    "last_commit": "2026-08-18T03:30:01Z",
+                    "last_commit": "2026-08-19T11:05:42Z",
                     "owner": "cosai-oasis",
                     "repo": "ws4-secure-design-agentic-systems",
-                    "stars": 128
+                    "stars": 129
                   }
                 },
                 {
                   "node_type": "item",
-                  "title": "MCP Server Security Standard",
+                  "title": "CoSAI Signing ML Artifacts",
                   "description": null,
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "id": 877389969,
                     "language": null,
-                    "last_commit": "2026-03-12T15:27:47Z",
-                    "owner": "mcp-security-standard",
-                    "repo": "mcp-server-security-standard",
-                    "stars": 74
+                    "last_commit": "2026-04-27T15:18:44Z",
+                    "owner": "cosai-oasis",
+                    "repo": "ws1-supply-chain",
+                    "stars": 56
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "ML lifecycle provenance: Atlas ML Provenance",
+                  "description": "(CLI), OpenSSF GPU Model Integrity, OpenSSF Model Lifecycle Provenance",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 958176721,
+                    "language": "Rust",
+                    "last_commit": "2026-07-27T06:53:57Z",
+                    "owner": "IntelLabs",
+                    "repo": "atlas-cli",
+                    "stars": 22
                   }
                 }
               ]
             }
-          ]
-        },
-        {
+          ],
+          "description": "Papers, frameworks, and documents discussing agent runtime security, threat models, and recommended mitigations.",
           "node_type": "group",
-          "title": "Cryptographic integrity of tools, models, and data:",
-          "description": null,
-          "children": [
-            {
-              "node_type": "item",
-              "title": "SAFE-M-2 Tool Description Integrity",
-              "description": ", SAFE-M-30 Data Source Integrity, SAFE-M-34 Model Integrity",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Python",
-                "last_commit": "2026-08-04T22:59:33Z",
-                "owner": "secure-agentic-framework",
-                "repo": "saf-mcp",
-                "stars": 357
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "CoSAI Crypto Verification of Resources",
-              "description": null,
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Jupyter Notebook",
-                "last_commit": "2026-08-18T03:30:01Z",
-                "owner": "cosai-oasis",
-                "repo": "ws4-secure-design-agentic-systems",
-                "stars": 128
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "CoSAI Signing ML Artifacts",
-              "description": null,
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": null,
-                "last_commit": "2026-04-27T15:18:44Z",
-                "owner": "cosai-oasis",
-                "repo": "ws1-supply-chain",
-                "stars": 56
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "ML lifecycle provenance: Atlas ML Provenance",
-              "description": "(CLI), OpenSSF GPU Model Integrity, OpenSSF Model Lifecycle Provenance",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Rust",
-                "last_commit": "2026-07-27T06:53:57Z",
-                "owner": "IntelLabs",
-                "repo": "atlas-cli",
-                "stars": 22
-              }
-            }
-          ]
+          "title": "Risks & mitigations frameworks"
         }
       ],
-      "title": "Risks & mitigations frameworks"
+      "title": "References"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T14:52:46.983Z",
+    "last_updated": "2026-08-19T12:16:31.042Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
+    "original_repository_id": 1165096078,
     "original_repository_sha": "69cb51395f033199dacad08f7c03371c23901893",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
     "enhanced_repository_description": null,
