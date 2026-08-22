@@ -15,7 +15,7 @@
             "last_commit": "2026-08-20T12:47:13Z",
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 108
+            "stars": 109
           }
         },
         {
@@ -30,7 +30,7 @@
             "last_commit": "2026-08-20T12:47:13Z",
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 108
+            "stars": 109
           }
         },
         {
@@ -45,7 +45,7 @@
             "last_commit": "2026-04-20T20:43:36Z",
             "owner": "agent-intent",
             "repo": "verifiable-intent",
-            "stars": 85
+            "stars": 86
           }
         },
         {
@@ -92,7 +92,7 @@
                 "archived": false,
                 "id": 930322459,
                 "language": "Go",
-                "last_commit": "2026-08-21T14:40:00Z",
+                "last_commit": "2026-08-21T18:14:06Z",
                 "owner": "agntcy",
                 "repo": "dir",
                 "stars": 176
@@ -129,7 +129,7 @@
                 "archived": false,
                 "id": 1184162680,
                 "language": "Go",
-                "last_commit": "2026-08-21T06:05:34Z",
+                "last_commit": "2026-08-21T18:49:35Z",
                 "owner": "highflame-ai",
                 "repo": "zeroid",
                 "stars": 158
@@ -144,7 +144,7 @@
                 "archived": false,
                 "id": 1070451287,
                 "language": "Go",
-                "last_commit": "2026-08-21T06:35:41Z",
+                "last_commit": "2026-08-22T00:21:39Z",
                 "owner": "opena2a-org",
                 "repo": "agent-identity-management",
                 "stars": 56
@@ -237,7 +237,7 @@
                     "last_commit": "2026-08-03T18:19:30Z",
                     "owner": "malwarejake",
                     "repo": "CUSTODY-framework",
-                    "stars": 58
+                    "stars": 59
                   }
                 },
                 {
@@ -299,10 +299,10 @@
                         "archived": false,
                         "id": 862570523,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-21T12:32:44Z",
+                        "last_commit": "2026-08-22T10:01:09Z",
                         "owner": "modelcontextprotocol",
                         "repo": "modelcontextprotocol",
-                        "stars": 9016
+                        "stars": 9026
                       }
                     },
                     {
@@ -329,7 +329,7 @@
                         "archived": false,
                         "id": 936656487,
                         "language": "Jupyter Notebook",
-                        "last_commit": "2026-08-19T11:05:42Z",
+                        "last_commit": "2026-08-21T20:09:59Z",
                         "owner": "cosai-oasis",
                         "repo": "ws4-secure-design-agentic-systems",
                         "stars": 129
@@ -383,7 +383,7 @@
                     "archived": false,
                     "id": 936656487,
                     "language": "Jupyter Notebook",
-                    "last_commit": "2026-08-19T11:05:42Z",
+                    "last_commit": "2026-08-21T20:09:59Z",
                     "owner": "cosai-oasis",
                     "repo": "ws4-secure-design-agentic-systems",
                     "stars": 129
@@ -490,7 +490,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T14:53:54.905Z",
+    "last_updated": "2026-08-22T14:37:38.938Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_id": 1165096078,
     "original_repository_sha": "d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed",
