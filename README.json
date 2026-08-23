@@ -75,7 +75,7 @@
             "last_commit": "2026-07-29T12:34:54Z",
             "owner": "identitymonk",
             "repo": "openid-wise",
-            "stars": 5
+            "stars": 6
           }
         },
         {
@@ -144,7 +144,7 @@
                 "archived": false,
                 "id": 1070451287,
                 "language": "Go",
-                "last_commit": "2026-08-22T00:21:39Z",
+                "last_commit": "2026-08-22T22:23:27Z",
                 "owner": "opena2a-org",
                 "repo": "agent-identity-management",
                 "stars": 56
@@ -299,10 +299,10 @@
                         "archived": false,
                         "id": 862570523,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-22T10:01:09Z",
+                        "last_commit": "2026-08-23T09:06:38Z",
                         "owner": "modelcontextprotocol",
                         "repo": "modelcontextprotocol",
-                        "stars": 9026
+                        "stars": 9032
                       }
                     },
                     {
@@ -317,7 +317,7 @@
                         "last_commit": "2026-08-04T22:59:33Z",
                         "owner": "secure-agentic-framework",
                         "repo": "saf-mcp",
-                        "stars": 359
+                        "stars": 360
                       }
                     },
                     {
@@ -332,7 +332,7 @@
                         "last_commit": "2026-08-21T20:09:59Z",
                         "owner": "cosai-oasis",
                         "repo": "ws4-secure-design-agentic-systems",
-                        "stars": 129
+                        "stars": 130
                       }
                     },
                     {
@@ -371,7 +371,7 @@
                     "last_commit": "2026-08-04T22:59:33Z",
                     "owner": "secure-agentic-framework",
                     "repo": "saf-mcp",
-                    "stars": 359
+                    "stars": 360
                   }
                 },
                 {
@@ -386,7 +386,7 @@
                     "last_commit": "2026-08-21T20:09:59Z",
                     "owner": "cosai-oasis",
                     "repo": "ws4-secure-design-agentic-systems",
-                    "stars": 129
+                    "stars": 130
                   }
                 },
                 {
@@ -490,7 +490,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T14:37:38.938Z",
+    "last_updated": "2026-08-23T14:39:28.406Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_id": 1165096078,
     "original_repository_sha": "d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed",
