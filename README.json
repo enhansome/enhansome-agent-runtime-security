@@ -27,7 +27,7 @@
             "archived": false,
             "id": 677083126,
             "language": "Go",
-            "last_commit": "2026-08-24T12:57:49Z",
+            "last_commit": "2026-08-24T14:58:27Z",
             "owner": "e2b-dev",
             "repo": "infra",
             "stars": 1337
@@ -42,7 +42,7 @@
             "archived": false,
             "id": 107505869,
             "language": "Rust",
-            "last_commit": "2026-08-24T14:21:47Z",
+            "last_commit": "2026-08-24T14:44:14Z",
             "owner": "firecracker-microvm",
             "repo": "firecracker",
             "stars": 36239
@@ -402,7 +402,7 @@
             "archived": false,
             "id": 113404957,
             "language": "Rust",
-            "last_commit": "2026-08-24T09:08:29Z",
+            "last_commit": "2026-08-24T14:47:55Z",
             "owner": "kata-containers",
             "repo": "kata-containers",
             "stars": 8596
@@ -510,7 +510,7 @@
             "last_commit": "2026-08-23T21:34:09Z",
             "owner": "multikernel",
             "repo": "sandlock",
-            "stars": 358
+            "stars": 359
           }
         },
         {
@@ -522,7 +522,7 @@
             "archived": false,
             "id": 1148615527,
             "language": "Rust",
-            "last_commit": "2026-08-24T14:24:09Z",
+            "last_commit": "2026-08-24T14:53:33Z",
             "owner": "nearai",
             "repo": "ironclaw",
             "stars": 12603
@@ -582,10 +582,10 @@
             "archived": false,
             "id": 846698999,
             "language": "Rust",
-            "last_commit": "2026-08-24T14:38:45Z",
+            "last_commit": "2026-08-24T15:00:11Z",
             "owner": "aaif-goose",
             "repo": "goose",
-            "stars": 53361
+            "stars": 53362
           }
         },
         {
@@ -600,7 +600,7 @@
             "last_commit": "2026-08-24T13:40:32Z",
             "owner": "smol-machines",
             "repo": "smolvm",
-            "stars": 5667
+            "stars": 5668
           }
         },
         {
@@ -747,7 +747,7 @@
             "archived": false,
             "id": 1206278030,
             "language": "Rust",
-            "last_commit": "2026-08-23T19:19:14Z",
+            "last_commit": "2026-08-24T14:56:20Z",
             "owner": "navikt",
             "repo": "cplt",
             "stars": 110
@@ -852,7 +852,7 @@
             "archived": false,
             "id": 1129585228,
             "language": "Go",
-            "last_commit": "2026-08-24T10:33:23Z",
+            "last_commit": "2026-08-24T14:48:05Z",
             "owner": "mensfeld",
             "repo": "code-on-incus",
             "stars": 664
@@ -867,7 +867,7 @@
             "archived": false,
             "id": 1166129534,
             "language": "Rust",
-            "last_commit": "2026-08-24T14:32:15Z",
+            "last_commit": "2026-08-24T14:49:58Z",
             "owner": "NVIDIA",
             "repo": "OpenShell",
             "stars": 8349
@@ -882,7 +882,7 @@
             "archived": false,
             "id": 1166129534,
             "language": "Rust",
-            "last_commit": "2026-08-24T14:32:15Z",
+            "last_commit": "2026-08-24T14:49:58Z",
             "owner": "NVIDIA",
             "repo": "OpenShell",
             "stars": 8349
@@ -1596,7 +1596,7 @@
             "last_commit": "2026-08-24T10:48:55Z",
             "owner": "eunomia-bpf",
             "repo": "agentsight",
-            "stars": 601
+            "stars": 602
           }
         },
         {
@@ -1626,7 +1626,7 @@
             "last_commit": "2026-08-24T10:48:55Z",
             "owner": "eunomia-bpf",
             "repo": "agentsight",
-            "stars": 601
+            "stars": 602
           }
         },
         {
@@ -2028,10 +2028,10 @@
             "archived": false,
             "id": 947349598,
             "language": "Go",
-            "last_commit": "2026-08-24T09:41:04Z",
+            "last_commit": "2026-08-24T14:42:26Z",
             "owner": "stacklok",
             "repo": "toolhive",
-            "stars": 2035
+            "stars": 2036
           }
         },
         {
@@ -2334,7 +2334,7 @@
             "archived": false,
             "id": 1135106724,
             "language": "TypeScript",
-            "last_commit": "2026-08-24T10:45:43Z",
+            "last_commit": "2026-08-24T14:42:20Z",
             "owner": "imbue-ai",
             "repo": "latchkey",
             "stars": 122
@@ -2878,7 +2878,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:39:44.016Z",
+    "last_updated": "2026-08-24T15:00:25.769Z",
     "original_repository": "bureado/awesome-agent-runtime-security",
     "original_repository_id": 1165096078,
     "original_repository_sha": "d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed",
