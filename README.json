@@ -10,12 +10,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1191257975,
             "language": "Shell",
+            "license": "NOASSERTION",
             "last_commit": "2026-05-06T07:44:12Z",
+            "open_issues": 0,
             "owner": "bpradipt",
             "repo": "kubefence",
-            "stars": 0
+            "stars": 0,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -26,12 +31,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Infrastructure that's powering E2B Cloud.",
+            "homepage": "https://e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=infra",
             "id": 677083126,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T22:20:29Z",
+            "open_issues": 188,
             "owner": "e2b-dev",
             "repo": "infra",
-            "stars": 1345
+            "stars": 1345,
+            "topics": [
+              "ai-agents",
+              "code-interpreter",
+              "consul",
+              "devtools",
+              "firecracker",
+              "gcp",
+              "go",
+              "golang",
+              "gpt",
+              "infra",
+              "kvm",
+              "llm",
+              "microvm",
+              "nomad",
+              "sandbox",
+              "terraform",
+              "vm",
+              "vmm"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -42,12 +71,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Secure and fast microVMs for serverless computing.",
+            "homepage": "http://firecracker-microvm.io",
             "id": 107505869,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T11:50:23Z",
+            "open_issues": 103,
             "owner": "firecracker-microvm",
             "repo": "firecracker",
-            "stars": 36350
+            "stars": 36351,
+            "topics": [
+              "containers",
+              "minimalist",
+              "open-source",
+              "oversubscription",
+              "rust",
+              "sandbox",
+              "serverless",
+              "virtual-machine",
+              "virtualization"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -58,12 +102,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
+            "homepage": "https://zeroboot.dev",
             "id": 1182712729,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-03-21T22:53:51Z",
+            "open_issues": 12,
             "owner": "zerobootdev",
             "repo": "zeroboot",
-            "stars": 2438
+            "stars": 2438,
+            "topics": [
+              "ai-agents",
+              "code-execution",
+              "copy-on-write",
+              "firecracker",
+              "kvm",
+              "rust",
+              "sandbox",
+              "virtual-machine",
+              "vm"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -74,12 +133,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.",
+            "homepage": null,
             "id": 1235832354,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-22T20:23:00Z",
+            "open_issues": 9,
             "owner": "deeplethe",
             "repo": "forkd",
-            "stars": 2805
+            "stars": 2809,
+            "topics": [
+              "ai-agents",
+              "copy-on-write",
+              "kvm",
+              "microvm",
+              "rust",
+              "sandbox",
+              "snapshot"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -90,12 +162,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A CLI tool for running AI agents inside microVM sandboxes",
+            "homepage": null,
             "id": 1158033822,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-05-26T14:17:40Z",
+            "open_issues": 2,
             "owner": "slp",
             "repo": "krunai",
-            "stars": 48
+            "stars": 48,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -106,12 +183,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A dynamic library providing Virtualization-based process isolation capabilities",
+            "homepage": null,
             "id": 287326438,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T09:17:39Z",
+            "open_issues": 95,
             "owner": "libkrun",
             "repo": "libkrun",
-            "stars": 2638
+            "stars": 2639,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -122,12 +204,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Linux based operating system hardened and purpose built for AI agents",
+            "homepage": "https://stereos.ai",
             "id": 1150060549,
             "language": "Nix",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-26T06:37:12Z",
+            "open_issues": 7,
             "owner": "papercomputeco",
             "repo": "stereOS",
-            "stars": 489
+            "stars": 489,
+            "topics": [
+              "ai",
+              "ai-agents",
+              "nix",
+              "nixos"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -138,12 +230,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The StereOS agent management daemon.",
+            "homepage": null,
             "id": 1155506209,
             "language": "Go",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-24T12:29:49Z",
+            "open_issues": 3,
             "owner": "papercomputeco",
             "repo": "agentd",
-            "stars": 47
+            "stars": 47,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -154,12 +251,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1064830827,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T17:20:48Z",
+            "open_issues": 75,
             "owner": "google",
             "repo": "capsem",
-            "stars": 71
+            "stars": 71,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -170,12 +272,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.",
+            "homepage": null,
             "id": 1079560616,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T09:23:58Z",
+            "open_issues": 175,
             "owner": "anthropic-experimental",
             "repo": "sandbox-runtime",
-            "stars": 5086
+            "stars": 5088,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -186,12 +293,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Matchlock secures AI agent workloads with a Linux-based sandbox.",
+            "homepage": null,
             "id": 1150822093,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-07-26T21:26:10Z",
+            "open_issues": 8,
             "owner": "jingkaihe",
             "repo": "matchlock",
-            "stars": 617
+            "stars": 617,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -202,12 +314,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Policy-controlled microVM sandboxes for safe, reproducible repo workloads.",
+            "homepage": null,
             "id": 1159547370,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-28T22:10:24Z",
+            "open_issues": 0,
             "owner": "buildkite",
             "repo": "cleanroom",
-            "stars": 64
+            "stars": 64,
+            "topics": [
+              "buildkite",
+              "dev-tools",
+              "firecracker",
+              "microvm",
+              "sandbox",
+              "virtualization-framework"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -218,12 +342,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Policy-controlled microVM sandboxes for safe, reproducible repo workloads.",
+            "homepage": null,
             "id": 1159547370,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-28T22:10:24Z",
+            "open_issues": 0,
             "owner": "buildkite",
             "repo": "cleanroom",
-            "stars": 64
+            "stars": 64,
+            "topics": [
+              "buildkite",
+              "dev-tools",
+              "firecracker",
+              "microvm",
+              "sandbox",
+              "virtualization-framework"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -234,12 +370,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🧱 easy fast local-first microVM runtime and library",
+            "homepage": "https://docs.microsandbox.dev",
             "id": 867192625,
             "language": "Rust",
-            "last_commit": "2026-08-28T23:06:28Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T03:38:22Z",
+            "open_issues": 75,
             "owner": "superradcompany",
             "repo": "microsandbox",
-            "stars": 7980
+            "stars": 7988,
+            "topics": [
+              "agents",
+              "docker",
+              "golang",
+              "linux",
+              "local",
+              "macos",
+              "microvm",
+              "nodejs",
+              "python",
+              "rust",
+              "sandbox",
+              "security",
+              "self-hosted",
+              "typescript",
+              "virtualization",
+              "vm",
+              "windows"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -250,12 +409,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A dynamic library providing Virtualization-based process isolation capabilities",
+            "homepage": null,
             "id": 287326438,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T09:17:39Z",
+            "open_issues": 95,
             "owner": "libkrun",
             "repo": "libkrun",
-            "stars": 2638
+            "stars": 2639,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -266,12 +430,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+            "homepage": "https://cubesandbox.com",
             "id": 1206553433,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T10:54:59Z",
+            "open_issues": 179,
             "owner": "TencentCloud",
             "repo": "CubeSandbox",
-            "stars": 11378
+            "stars": 11378,
+            "topics": [
+              "agents",
+              "container",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -282,12 +455,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The micro-VM for AI agents — light enough to embed on your laptop, elastic enough to power an agentic cloud.",
+            "homepage": "https://boxlite.ai/",
             "id": 1111937658,
             "language": "Rust",
-            "last_commit": "2026-08-28T13:09:12Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T03:46:57Z",
+            "open_issues": 268,
             "owner": "boxlite-ai",
             "repo": "boxlite",
-            "stars": 2282
+            "stars": 2281,
+            "topics": [
+              "agentic",
+              "ai-agent",
+              "embedded",
+              "rust",
+              "sandbox",
+              "security",
+              "self-hosted",
+              "serverless",
+              "virtualization"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -298,12 +486,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A dynamic library providing Virtualization-based process isolation capabilities",
+            "homepage": null,
             "id": 287326438,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T09:17:39Z",
+            "open_issues": 95,
             "owner": "libkrun",
             "repo": "libkrun",
-            "stars": 2638
+            "stars": 2639,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -314,12 +507,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "CLI tool for running coding agents inside hardware-isolated microVMs",
+            "homepage": null,
             "id": 1157363528,
             "language": "Go",
-            "last_commit": "2026-08-27T20:03:50Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T01:04:06Z",
+            "open_issues": 13,
             "owner": "stacklok",
             "repo": "brood-box",
-            "stars": 63
+            "stars": 63,
+            "topics": [
+              "ai-agents",
+              "claude-code",
+              "codex",
+              "developer-tools",
+              "microvm",
+              "sandbox",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -330,12 +536,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A dynamic library providing Virtualization-based process isolation capabilities",
+            "homepage": null,
             "id": 287326438,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T09:17:39Z",
+            "open_issues": 95,
             "owner": "libkrun",
             "repo": "libkrun",
-            "stars": 2638
+            "stars": 2639,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -346,12 +557,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Application Kernel for Containers",
+            "homepage": "https://gvisor.dev",
             "id": 131212638,
             "language": "Go",
-            "last_commit": "2026-08-28T23:33:01Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:08:36Z",
+            "open_issues": 838,
             "owner": "google",
             "repo": "gvisor",
-            "stars": 19184
+            "stars": 19186,
+            "topics": [
+              "containers",
+              "docker",
+              "kernel",
+              "kubernetes",
+              "linux",
+              "oci",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -362,12 +586,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+            "homepage": "https://open-sandbox.ai",
             "id": 1118085970,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T15:05:53Z",
+            "open_issues": 171,
             "owner": "opensandbox-group",
             "repo": "OpenSandbox",
-            "stars": 14801
+            "stars": 14803,
+            "topics": [
+              "ai",
+              "ai-agent",
+              "ai-infra",
+              "kubernetes",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -378,12 +613,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Application Kernel for Containers",
+            "homepage": "https://gvisor.dev",
             "id": 131212638,
             "language": "Go",
-            "last_commit": "2026-08-28T23:33:01Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:08:36Z",
+            "open_issues": 838,
             "owner": "google",
             "repo": "gvisor",
-            "stars": 19184
+            "stars": 19186,
+            "topics": [
+              "containers",
+              "docker",
+              "kernel",
+              "kubernetes",
+              "linux",
+              "oci",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -394,12 +642,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Experimental Linux microvm setup with a TypeScript Control Plane as Agent Sandbox",
+            "homepage": "https://earendil-works.github.io/gondolin",
             "id": 1148838610,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-06T10:21:13Z",
+            "open_issues": 41,
             "owner": "earendil-works",
             "repo": "gondolin",
-            "stars": 2055
+            "stars": 2056,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -410,12 +663,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Your own self-hosted infra for lightweight VM sandboxes to safely execute untrusted code. CLI, API, Python SDK. ⭐ Star it if you like it! ⭐",
+            "homepage": "https://docs.katakate.org",
             "id": 1079196239,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-18T21:58:46Z",
+            "open_issues": 0,
             "owner": "Katakate",
             "repo": "k7",
-            "stars": 787
+            "stars": 787,
+            "topics": [
+              "agents",
+              "code",
+              "firecracker",
+              "kata",
+              "kubernetes",
+              "sandbox",
+              "security",
+              "self-hosted",
+              "virtual-machine",
+              "virtualization"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -426,12 +695,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/",
+            "homepage": null,
             "id": 113404957,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T15:44:05Z",
+            "open_issues": 1175,
             "owner": "kata-containers",
             "repo": "kata-containers",
-            "stars": 8618
+            "stars": 8619,
+            "topics": [
+              "containers",
+              "cri",
+              "cri-o",
+              "docker",
+              "firecracker",
+              "k8s",
+              "kubernetes",
+              "kvm",
+              "oci",
+              "qemu",
+              "security",
+              "virtual-machine",
+              "virtualization"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -442,12 +730,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Hyperlight is a lightweight Virtual Machine Manager (VMM) designed to be embedded within applications. It enables safe execution of untrusted code within micro virtual machines with very low latency and minimal overhead.",
+            "homepage": "https://hyperlight.org",
             "id": 883829350,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T16:56:30Z",
+            "open_issues": 211,
             "owner": "hyperlight-dev",
             "repo": "hyperlight",
-            "stars": 4641
+            "stars": 4641,
+            "topics": [
+              "hyper-v",
+              "hypervisor",
+              "kvm",
+              "mshv",
+              "rust",
+              "vmm"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -458,12 +758,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A multi-backend sandboxing framework for running untrusted code with controlled host capabilities built on Hyperlight.",
+            "homepage": null,
             "id": 1196690580,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T17:27:49Z",
+            "open_issues": 16,
             "owner": "hyperlight-dev",
             "repo": "hyperlight-sandbox",
-            "stars": 69
+            "stars": 69,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -474,12 +779,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The world's first operating system for agents, not humans. Built on seL4 microkernel with capability-based security and agent-native vibe-coding.",
+            "homepage": null,
             "id": 1194461342,
             "language": "C",
+            "license": "BSD-2-Clause",
             "last_commit": "2026-06-10T06:39:25Z",
+            "open_issues": 7,
             "owner": "jordanhubbard",
             "repo": "agentos",
-            "stars": 23
+            "stars": 23,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -490,12 +800,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A kernel designed to run one and only one application in a virtualized environment",
+            "homepage": "https://mbhatt1.github.io/authority/",
             "id": 1003404204,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-06T20:03:08Z",
+            "open_issues": 0,
             "owner": "mbhatt1",
             "repo": "authority",
-            "stars": 6
+            "stars": 6,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -506,12 +821,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Leash by StrongDM - take your AI agents for a walk",
+            "homepage": "https://leash.strongdm.ai/",
             "id": 1080656849,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-04-06T20:10:14Z",
+            "open_issues": 21,
             "owner": "strongdm",
             "repo": "leash",
-            "stars": 589
+            "stars": 589,
+            "topics": [
+              "agentic",
+              "ai",
+              "claude-code",
+              "codex-cli",
+              "container",
+              "sandbox",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -522,12 +850,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Library-Level eBPF Sandbox for Python (Linux & macOS): syscall-level control per module.",
+            "homepage": "https://avilum.github.io/secimport/",
             "id": 509868578,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-03-18T23:52:32Z",
+            "open_issues": 2,
             "owner": "avilum",
             "repo": "secimport",
-            "stars": 243
+            "stars": 243,
+            "topics": [
+              "3rd-party",
+              "bpftrace",
+              "dtrace",
+              "ebpf",
+              "import",
+              "linux",
+              "profiling",
+              "python",
+              "rce",
+              "sandbox",
+              "seccomp",
+              "security",
+              "security-tools",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -538,12 +886,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The lightest AI sandbox. A process-based sandbox for Linux, no container, no VM, no privilege, no prompt injection",
+            "homepage": "https://sandlock.io/",
             "id": 1181262173,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-23T21:34:09Z",
+            "open_issues": 17,
             "owner": "multikernel",
             "repo": "sandlock",
-            "stars": 380
+            "stars": 380,
+            "topics": [
+              "ai-agents",
+              "faas",
+              "landlock",
+              "linux",
+              "promptinjection",
+              "rust",
+              "sandboxing",
+              "seccomp"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -554,12 +916,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "IronClaw is an Agent OS focused on privacy, security and extensibility",
+            "homepage": "https://www.ironclaw.com",
             "id": 1148615527,
             "language": "Rust",
-            "last_commit": "2026-08-28T23:31:09Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:04:32Z",
+            "open_issues": 1477,
             "owner": "nearai",
             "repo": "ironclaw",
-            "stars": 12603
+            "stars": 12602,
+            "topics": [
+              "codeact",
+              "openclaw",
+              "rlm",
+              "rust",
+              "wasm"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -570,12 +943,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1144706097,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-05-15T23:29:00Z",
+            "open_issues": 1,
             "owner": "amlalabs",
             "repo": "amla-sandbox",
-            "stars": 345
+            "stars": 345,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -586,12 +964,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source Agent Operating System",
+            "homepage": "https://www.openfang.sh/",
             "id": 1166139870,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-02T08:13:12Z",
+            "open_issues": 114,
             "owner": "RightNow-AI",
             "repo": "openfang",
-            "stars": 18143
+            "stars": 18145,
+            "topics": [
+              "agent-framework",
+              "ai-agents",
+              "llm",
+              "mcp",
+              "open-source",
+              "openclaw",
+              "operating-system",
+              "rust"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -602,12 +994,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+            "homepage": "https://cua.ai",
             "id": 925270205,
             "language": "HTML",
-            "last_commit": "2026-08-28T22:36:55Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T04:50:03Z",
+            "open_issues": 737,
             "owner": "trycua",
             "repo": "cua",
-            "stars": 21990
+            "stars": 21999,
+            "topics": [
+              "agent",
+              "ai-agent",
+              "apple",
+              "computer-use",
+              "computer-use-agent",
+              "containerization",
+              "cua",
+              "desktop-automation",
+              "hacktoberfest",
+              "lume",
+              "macos",
+              "manus",
+              "operator",
+              "swift",
+              "virtualization",
+              "virtualization-framework",
+              "windows",
+              "windows-sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -618,12 +1034,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+            "homepage": "https://goose-docs.ai/",
             "id": 846698999,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T20:20:42Z",
+            "open_issues": 223,
             "owner": "aaif-goose",
             "repo": "goose",
-            "stars": 53622
+            "stars": 53630,
+            "topics": [
+              "acp",
+              "ai",
+              "ai-agents",
+              "mcp"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -634,12 +1060,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Portable, lightweight, self-contained virtual machine.",
+            "homepage": "https://smolmachines.com",
             "id": 1119210021,
             "language": "Rust",
-            "last_commit": "2026-08-28T19:43:31Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T02:49:36Z",
+            "open_issues": 73,
             "owner": "smol-machines",
             "repo": "smolvm",
-            "stars": 5815
+            "stars": 5819,
+            "topics": [
+              "containers",
+              "crun",
+              "libkrun",
+              "microvm",
+              "rust",
+              "virtual-machine"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -650,12 +1088,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A dynamic library providing Virtualization-based process isolation capabilities",
+            "homepage": null,
             "id": 287326438,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T09:17:39Z",
+            "open_issues": 95,
             "owner": "libkrun",
             "repo": "libkrun",
-            "stars": 2638
+            "stars": 2639,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -666,12 +1109,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Gives an AI agent (or any untrusted code) a full, hardened sandbox VM that can reach the internet but nothing on your network.",
+            "homepage": "https://karamatli.com/posts/network-isolated-kvm-sandbox-ai-agents/",
             "id": 1307112334,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-07-28T13:10:41Z",
+            "open_issues": 0,
             "owner": "ertug",
             "repo": "kvm-jailbox",
-            "stars": 4
+            "stars": 4,
+            "topics": [
+              "ai-agents",
+              "claude-code",
+              "coding-agents",
+              "firewall",
+              "hardening",
+              "kvm",
+              "linux",
+              "networking",
+              "nftables",
+              "nmap",
+              "port-scanning",
+              "python",
+              "qemu",
+              "sandbox",
+              "security",
+              "untrusted-code",
+              "virtualization"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -682,12 +1148,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "CLI for confidential CVM verification",
+            "homepage": null,
             "id": 1231254089,
             "language": "Shell",
+            "license": "MIT",
             "last_commit": "2026-05-16T18:39:49Z",
+            "open_issues": 0,
             "owner": "confidential-dot-ai",
             "repo": "confidential-cvm-cli",
-            "stars": 2
+            "stars": 2,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -698,12 +1169,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Umami seasoning for Nix flakes",
+            "homepage": null,
             "id": 1186101521,
             "language": "Rust",
+            "license": null,
             "last_commit": "2026-08-11T04:18:19Z",
+            "open_issues": 0,
             "owner": "cdata",
             "repo": "katsuobushi",
-            "stars": 4
+            "stars": 4,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -714,12 +1190,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A hypervisor and sandbox cloud for self-hosting AI agents and RL",
+            "homepage": "https://instavm.io",
             "id": 1290961602,
             "language": "Rust",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-24T04:41:33Z",
+            "open_issues": 27,
             "owner": "instavm",
             "repo": "tarit",
-            "stars": 80
+            "stars": 80,
+            "topics": [
+              "ai-agents",
+              "firecracker-alternative",
+              "hypervisor",
+              "reinforcement-learning-environments",
+              "rust",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -730,12 +1218,35 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A next-generation cloud native kernel designed to unlock best-in-class performance, security primitives and efficiency savings.",
+            "homepage": "http://unikraft.org",
             "id": 181022316,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-24T15:11:54Z",
+            "open_issues": 361,
             "owner": "unikraft",
             "repo": "unikraft",
-            "stars": 3836
+            "stars": 3836,
+            "topics": [
+              "application",
+              "cloud",
+              "cloud-native",
+              "hacktoberfest",
+              "kernel",
+              "library",
+              "microservice",
+              "operating-system",
+              "os",
+              "osdev",
+              "performance",
+              "qemu",
+              "security",
+              "unikernel",
+              "unikernels",
+              "unikraft",
+              "virtualization"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -746,12 +1257,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "a simple container runtime that aspires to become `runc` for unikernels",
+            "homepage": "https://urunc.io/",
             "id": 691671214,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T07:09:14Z",
+            "open_issues": 217,
             "owner": "urunc-dev",
             "repo": "urunc",
-            "stars": 291
+            "stars": 291,
+            "topics": [
+              "containers",
+              "oci",
+              "unikernels"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -762,12 +1282,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Fastest, cheapest, safest agentic runtime",
+            "homepage": "https://isorun.ai",
             "id": 1271540206,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-18T23:59:40Z",
+            "open_issues": 5,
             "owner": "isorun",
             "repo": "sdk",
-            "stars": 7
+            "stars": 7,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -778,12 +1303,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Run AI coding agents in hardened container sandboxes.",
+            "homepage": null,
             "id": 1171894382,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-20T16:23:51Z",
+            "open_issues": 7,
             "owner": "89luca89",
             "repo": "clampdown",
-            "stars": 95
+            "stars": 95,
+            "topics": [
+              "agent",
+              "ai",
+              "ai-agents",
+              "claude-code",
+              "containers",
+              "docker",
+              "landlock",
+              "opencode",
+              "podman",
+              "sandbox",
+              "seccomp",
+              "security-tools"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -794,12 +1337,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sandbox wrapper for AI coding agents. Runs GitHub Copilot CLI, OpenCode, Google Gemini CLI, Pi, or a plain shell inside a kernel-level sandbox so the agent can work on your project but cannot access your secrets.",
+            "homepage": "https://ki-utvikling.nav.no/cplt",
             "id": 1206278030,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-08-28T09:31:09Z",
+            "open_issues": 37,
             "owner": "navikt",
             "repo": "cplt",
-            "stars": 110
+            "stars": 110,
+            "topics": [
+              "agentic-ai",
+              "copilot",
+              "gemini",
+              "opencode",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -810,12 +1364,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A sandbox for coding agents with parametrized state.",
+            "homepage": null,
             "id": 1255794238,
             "language": "TypeScript",
+            "license": null,
             "last_commit": "2026-08-28T20:54:41Z",
+            "open_issues": 11,
             "owner": "landstrip",
             "repo": "landstrip",
-            "stars": 72
+            "stars": 72,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -826,12 +1385,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A secure* runtime for autonomous AI agents. Policy from plain-English constitutions. (*https://ironcurtain.dev)",
+            "homepage": "https://ironcurtain.dev",
             "id": 1163644748,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T20:51:31Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T01:25:12Z",
+            "open_issues": 9,
             "owner": "provos",
             "repo": "ironcurtain",
-            "stars": 592
+            "stars": 592,
+            "topics": [
+              "agent",
+              "mcp",
+              "model-context-protocol",
+              "policy",
+              "sandbox",
+              "security",
+              "trusted-process"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -842,12 +1414,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+            "homepage": null,
             "id": 646426100,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-08-28T16:08:38Z",
+            "open_issues": 111,
             "owner": "pydantic",
             "repo": "monty",
-            "stars": 8120
+            "stars": 8121,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -858,12 +1435,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Deploy an AI-generated backend for every user.",
+            "homepage": "https://rivet.dev/dynamic-apps",
             "id": 1116652542,
             "language": "TypeScript",
+            "license": null,
             "last_commit": "2026-08-27T00:01:10Z",
+            "open_issues": 19,
             "owner": "rivet-dev",
             "repo": "dynamic-apps",
-            "stars": 973
+            "stars": 973,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -874,12 +1456,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Process isolation for Linux using namespaces, resource limits, cgroups, landlock and seccomp.",
+            "homepage": "https://docs.rs/hakoniwa",
             "id": 1195735183,
             "language": "Rust",
+            "license": "NOASSERTION",
             "last_commit": "2026-07-01T04:00:31Z",
+            "open_issues": 0,
             "owner": "gominimal",
             "repo": "hakoniwa",
-            "stars": 0
+            "stars": 0,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -890,12 +1477,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "AI coding agents that can't exfiltrate secrets or merge their own PRs.",
+            "homepage": null,
             "id": 1131976249,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-02-01T15:20:55Z",
+            "open_issues": 7,
             "owner": "borenstein",
             "repo": "yolo-cage",
-            "stars": 109
+            "stars": 109,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -906,12 +1498,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detects and stops threats automatically.",
+            "homepage": null,
             "id": 1129585228,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-28T18:13:16Z",
+            "open_issues": 26,
             "owner": "mensfeld",
             "repo": "code-on-incus",
-            "stars": 673
+            "stars": 674,
+            "topics": [
+              "agentic-ai",
+              "ai-tools",
+              "anthropic",
+              "claude",
+              "claude-code",
+              "code-sandbox",
+              "codex",
+              "coding-assistant",
+              "container-security",
+              "containers",
+              "developer-tools",
+              "incus",
+              "llm-security",
+              "llm-tools",
+              "lxc",
+              "opencode",
+              "opencode-ai",
+              "sandbox",
+              "sandboxing-tool",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -922,12 +1540,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+            "homepage": "https://docs.nvidia.com/openshell/latest/",
             "id": 1166129534,
             "language": "Rust",
-            "last_commit": "2026-08-28T23:31:50Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T03:18:24Z",
+            "open_issues": 510,
             "owner": "NVIDIA",
             "repo": "OpenShell",
-            "stars": 8406
+            "stars": 8409,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -938,12 +1561,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+            "homepage": "https://docs.nvidia.com/openshell/latest/",
             "id": 1166129534,
             "language": "Rust",
-            "last_commit": "2026-08-28T23:31:50Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T03:18:24Z",
+            "open_issues": 510,
             "owner": "NVIDIA",
             "repo": "OpenShell",
-            "stars": 8406
+            "stars": 8409,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -954,12 +1582,34 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+            "homepage": "https://omnigent.ai",
             "id": 1266212515,
             "language": "Python",
-            "last_commit": "2026-08-28T23:31:29Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:48:57Z",
+            "open_issues": 1244,
             "owner": "omnigent-ai",
             "repo": "omnigent",
-            "stars": 9442
+            "stars": 9453,
+            "topics": [
+              "agent-framework",
+              "agent-governance",
+              "agent-orchestration",
+              "agents",
+              "ai",
+              "ai-agent",
+              "ai-agents",
+              "claude-code",
+              "codex",
+              "coding-agents",
+              "developer-tools",
+              "llm",
+              "ml",
+              "multi-agent",
+              "python",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -970,12 +1620,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Policy-driven, layered isolation and containment ",
+            "homepage": null,
             "id": 1151717775,
             "language": "Rust",
-            "last_commit": "2026-08-28T22:30:34Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T01:28:46Z",
+            "open_issues": 123,
             "owner": "microsoft",
             "repo": "mxc",
-            "stars": 1257
+            "stars": 1257,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -986,12 +1641,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Defense-in-depth proxy sandbox for AI agents",
+            "homepage": null,
             "id": 1160034620,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-28T22:44:16Z",
+            "open_issues": 10,
             "owner": "agentcage",
             "repo": "agentcage",
-            "stars": 21
+            "stars": 21,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1002,12 +1662,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A sandbox control plane for managing isolated execution environments across multiple backends (LXC/Firecracker)",
+            "homepage": null,
             "id": 1196607346,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-07T22:32:26Z",
+            "open_issues": 0,
             "owner": "erans",
             "repo": "navaris",
-            "stars": 10
+            "stars": 10,
+            "topics": [
+              "ai",
+              "firecracker",
+              "lxc",
+              "sandbox",
+              "sandboxing",
+              "service",
+              "vms"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1018,12 +1691,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale.",
+            "homepage": null,
             "id": 1309451980,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-08-28T02:02:57Z",
+            "open_issues": 58,
             "owner": "kvcache-ai",
             "repo": "AgentENV",
-            "stars": 3346
+            "stars": 3347,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1034,12 +1712,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source AI sandbox infrastructure with unified API for VMMs -- Firecracker, QEMU and libkrun.",
+            "homepage": "https://docs.celesto.ai/smolvm",
             "id": 1158200188,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T07:59:50Z",
+            "open_issues": 10,
             "owner": "CelestoAI",
             "repo": "SmolVM",
-            "stars": 856
+            "stars": 856,
+            "topics": [
+              "agent-runtime",
+              "browser-agent",
+              "browser-use",
+              "computer-use",
+              "openclaw",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1050,12 +1740,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Coding-agent VM orchestrator: runs coding agents in isolated VMs — Firecracker micro-VMs on Linux (with ZFS-based audit-trail snapshots) and Apple's container tool on macOS.",
+            "homepage": null,
             "id": 1137229421,
             "language": "Go",
+            "license": null,
             "last_commit": "2026-08-06T17:55:59Z",
+            "open_issues": 1,
             "owner": "prime-radiant-inc",
             "repo": "stockyard",
-            "stars": 41
+            "stars": 41,
+            "topics": [
+              "claude-code",
+              "coding-agent",
+              "firecracker",
+              "go",
+              "vm-orchestration"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1066,12 +1767,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Throwaway root shells in AWS Lambda Firecracker microVMs. Launch a fresh VM in ~2s, run a command or attach an interactive shell, then let it disappear. Build the image once, launch many — a Go library (microvm) plus a Docker-like CLI: run, exec, ps, gc, put/get.",
+            "homepage": null,
             "id": 1283053240,
             "language": "Go",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-25T10:31:09Z",
+            "open_issues": 1,
             "owner": "udgover",
             "repo": "whim",
-            "stars": 32
+            "stars": 32,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1082,12 +1788,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Execution-Layer Security (ELS) for AI agents — policy-enforced shell with audit.",
+            "homepage": "https://www.agentsh.org",
             "id": 1117787577,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-06T15:55:40Z",
+            "open_issues": 12,
             "owner": "canyonroad",
             "repo": "agentsh",
-            "stars": 377
+            "stars": 377,
+            "topics": [
+              "agentic-ai",
+              "agents",
+              "ai",
+              "ai-security",
+              "els",
+              "enforcement",
+              "execution-layer-security",
+              "executionlayersecurity",
+              "policy",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1098,12 +1820,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Lightweight, container-free sandbox for running commands with network and filesystem restrictions",
+            "homepage": "https://fencesandbox.com/docs",
             "id": 1119154862,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T16:04:21Z",
+            "open_issues": 34,
             "owner": "fencesandbox",
             "repo": "fence",
-            "stars": 940
+            "stars": 940,
+            "topics": [
+              "bubblewrap",
+              "code-security",
+              "coding-agent",
+              "landlock",
+              "sandbox",
+              "seatbelt",
+              "seccomp",
+              "socat"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1114,12 +1850,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Container-free, deny-by-default sandbox for AI coding agents. Kernel-enforced filesystem, network, and syscall isolation for Linux and macOS",
+            "homepage": "https://greywall.io",
             "id": 1172933443,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-13T19:57:51Z",
+            "open_issues": 24,
             "owner": "GreyhavenHQ",
             "repo": "greywall",
-            "stars": 289
+            "stars": 289,
+            "topics": [
+              "agents",
+              "ai-security",
+              "claude-code",
+              "developer-tools",
+              "greyproxy",
+              "landlock",
+              "linux",
+              "llm",
+              "macos",
+              "opencode",
+              "sandbox",
+              "sandbox-ai",
+              "seccomp",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1130,12 +1886,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "SOCKS5 and DNS proxy for greywall",
+            "homepage": "https://greywall.io",
             "id": 1172044863,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-06-02T15:52:57Z",
+            "open_issues": 2,
             "owner": "GreyhavenHQ",
             "repo": "greyproxy",
-            "stars": 43
+            "stars": 43,
+            "topics": [
+              "agent-firewall",
+              "agent-sandbox",
+              "firewall",
+              "proxy",
+              "socks5"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1146,12 +1913,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Multi-OS sandbox to run AI agents with better constraints (it is not 100% secure, but enough)",
+            "homepage": null,
             "id": 1170099788,
             "language": "Rust",
+            "license": "GPL-3.0",
             "last_commit": "2026-08-24T17:33:32Z",
+            "open_issues": 1,
             "owner": "akitaonrails",
             "repo": "ai-jail",
-            "stars": 1140
+            "stars": 1140,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1162,12 +1934,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": "https://xbin.dev",
             "id": 1287756781,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T16:53:51Z",
+            "open_issues": 0,
             "owner": "xbin-dev",
             "repo": "xbin",
-            "stars": 6
+            "stars": 6,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1178,12 +1955,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1248446504,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-20T23:16:41Z",
+            "open_issues": 64,
             "owner": "TomHennen",
             "repo": "rein",
-            "stars": 0
+            "stars": 0,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1194,12 +1976,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A local-first microVM sandbox for running AI agents safely on macOS & Linux",
+            "homepage": "http://shuru.run/",
             "id": 1160327105,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-05T00:27:26Z",
+            "open_issues": 10,
             "owner": "superhq-ai",
             "repo": "shuru",
-            "stars": 848
+            "stars": 848,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1210,12 +1997,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Local-first coding agent workbench with secretless microVMs",
+            "homepage": "https://isolade.com",
             "id": 1302005433,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-04T12:50:34Z",
+            "open_issues": 0,
             "owner": "isolade",
             "repo": "isolade",
-            "stars": 19
+            "stars": 19,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1226,12 +2018,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Self-Hostable MicroVMs for your Agents",
+            "homepage": "https://bhatti.sh",
             "id": 1178606341,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-11T11:12:33Z",
+            "open_issues": 0,
             "owner": "sahil-shubham",
             "repo": "bhatti",
-            "stars": 260
+            "stars": 260,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1242,12 +2039,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A dynamic library providing Virtualization-based process isolation capabilities",
+            "homepage": null,
             "id": 1267030042,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-03T12:18:24Z",
+            "open_issues": 0,
             "owner": "sahil-shubham",
             "repo": "libkrucible",
-            "stars": 3
+            "stars": 3,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1258,12 +2060,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Bounded local runtime and policy boundary for coding agents",
+            "homepage": null,
             "id": 1188938390,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T13:11:11Z",
+            "open_issues": 4,
             "owner": "omkhar",
             "repo": "workcell",
-            "stars": 20
+            "stars": 20,
+            "topics": [
+              "coding-agents",
+              "containers",
+              "developer-tools",
+              "macos",
+              "provenance",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1274,12 +2088,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Run, test & validate the code on multiple worktrees concurrently - an ephemeral deployment for each of them!",
+            "homepage": null,
             "id": 1282023343,
             "language": "Shell",
+            "license": "MIT",
             "last_commit": "2026-06-27T12:56:26Z",
+            "open_issues": 0,
             "owner": "voycey",
             "repo": "vmoat",
-            "stars": 0
+            "stars": 0,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1290,12 +2109,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Run AI agents in safe VMs scoped to a local folder",
+            "homepage": null,
             "id": 1143754001,
             "language": "Shell",
+            "license": "MIT",
             "last_commit": "2026-07-07T13:46:40Z",
+            "open_issues": 7,
             "owner": "sylvinus",
             "repo": "agent-vm",
-            "stars": 96
+            "stars": 96,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1306,12 +2130,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Reproducible Arch Linux development virtual machines",
+            "homepage": null,
             "id": 1199524860,
             "language": "Shell",
+            "license": "AGPL-3.0",
             "last_commit": "2026-07-05T18:06:52Z",
+            "open_issues": 0,
             "owner": "matheusmoreira",
             "repo": "virtdev",
-            "stars": 8
+            "stars": 8,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1322,12 +2151,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Locki: AI sandboxing without the taste of sand",
+            "homepage": null,
             "id": 1187163153,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T10:55:41Z",
+            "open_issues": 16,
             "owner": "JanPokorny",
             "repo": "locki",
-            "stars": 67
+            "stars": 67,
+            "topics": [
+              "claude-code",
+              "codex-cli",
+              "gemini-cli",
+              "opencode",
+              "sandbox",
+              "sandbox-environment",
+              "sandboxing",
+              "sandboxing-tool"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1338,12 +2181,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Give coding agents a disposable Linux VM, not your laptop",
+            "homepage": null,
             "id": 1291502015,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-13T21:18:22Z",
+            "open_issues": 2,
             "owner": "clawkwork",
             "repo": "clawk",
-            "stars": 1000
+            "stars": 1000,
+            "topics": [
+              "agent-sandbox",
+              "ai-agent-sandbox",
+              "ai-agents",
+              "claude",
+              "claude-code",
+              "codex",
+              "microvm",
+              "sandbox",
+              "virtualization",
+              "vm"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1354,12 +2213,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Experimental Linux microvm setup with a TypeScript Control Plane as Agent Sandbox",
+            "homepage": "https://earendil-works.github.io/gondolin",
             "id": 1148838610,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-06T10:21:13Z",
+            "open_issues": 41,
             "owner": "earendil-works",
             "repo": "gondolin",
-            "stars": 2055
+            "stars": 2056,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1370,12 +2234,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Tuor – a convenience wrapper around Gondolin to spawn microVM-based sandboxes",
+            "homepage": null,
             "id": 1175594142,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T16:06:24Z",
+            "open_issues": 1,
             "owner": "codethief",
             "repo": "tuor",
-            "stars": 5
+            "stars": 5,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1386,12 +2255,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Your agent is a security risk, so treat it like one. yoloAI does AI agent sandboxing right.",
+            "homepage": "https://yoloai.dev",
             "id": 1165745989,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-21T13:34:36Z",
+            "open_issues": 9,
             "owner": "kstenerud",
             "repo": "yoloai",
-            "stars": 210
+            "stars": 210,
+            "topics": [
+              "ai",
+              "ai-agents",
+              "aider",
+              "claude",
+              "codex",
+              "docker",
+              "gemini",
+              "opencode",
+              "permission",
+              "podman",
+              "sandbox",
+              "seatbelt",
+              "tmux",
+              "yolo"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1402,12 +2291,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A sandbox environment designed for loading, running and profiling a wide range of files, including machine learning models, ELFs, Pickle, Javascript and more",
+            "homepage": "https://dreadnode.github.io/dyana/",
             "id": 880803374,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-26T00:23:24Z",
+            "open_issues": 8,
             "owner": "dreadnode",
             "repo": "dyana",
-            "stars": 366
+            "stars": 366,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1418,12 +2312,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Immutable, reproducible, least-privilege runtime environments for AI agents",
+            "homepage": "https://agentcontainers.dev",
             "id": 1213647498,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-17T02:54:49Z",
+            "open_issues": 22,
             "owner": "kubedoll-heavy-industries",
             "repo": "agentcontainers",
-            "stars": 11
+            "stars": 11,
+            "topics": [
+              "ai-agents",
+              "containers",
+              "devcontainers",
+              "ebpf",
+              "oci",
+              "security",
+              "slsa"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1434,12 +2341,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "sandboxing shell for ai coding agents",
+            "homepage": "https://shai.run",
             "id": 1099430267,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-07-02T19:11:26Z",
+            "open_issues": 1,
             "owner": "colony-2",
             "repo": "shai",
-            "stars": 43
+            "stars": 43,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1450,12 +2362,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Isolation for your coding agents... Run your coding agent in a Docker sandbox with filesystem isolation, network isolation, and per-project credential sandboxes.",
+            "homepage": null,
             "id": 1158791124,
             "language": "Shell",
+            "license": "MIT",
             "last_commit": "2026-08-28T19:10:57Z",
+            "open_issues": 19,
             "owner": "rappdw",
             "repo": "sandy",
-            "stars": 15
+            "stars": 15,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1466,12 +2383,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A manager for AI coding agents that works with Claude Code, Cursor, Gemini, Codex, and Qwen.",
+            "homepage": "https://endor.dev/rover",
             "id": 1024231290,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-03-27T13:27:57Z",
+            "open_issues": 42,
             "owner": "endorhq",
             "repo": "rover",
-            "stars": 271
+            "stars": 271,
+            "topics": [
+              "agentic-ai",
+              "ai",
+              "ai-agents",
+              "claude",
+              "codex",
+              "gemini",
+              "qwen"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1482,12 +2412,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An MCP server that provides a secure isolated environment for executing Python code.",
+            "homepage": null,
             "id": 1166118561,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-03-28T05:46:00Z",
+            "open_issues": 0,
             "owner": "vladkol",
             "repo": "bentorun",
-            "stars": 5
+            "stars": 5,
+            "topics": [
+              "agent-sandbox",
+              "ai-agents",
+              "code-execution",
+              "code-sandbox",
+              "mcp-server"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1498,12 +2439,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1210198122,
             "language": "Go",
+            "license": null,
             "last_commit": "2026-06-14T13:29:07Z",
+            "open_issues": 0,
             "owner": "hamzzy",
             "repo": "Runmesh",
-            "stars": 1
+            "stars": 1,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1514,12 +2460,37 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI",
+            "homepage": "https://containarium.dev",
             "id": 1124390254,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T14:29:56Z",
+            "open_issues": 88,
             "owner": "FootprintAI",
             "repo": "Containarium",
-            "stars": 275
+            "stars": 275,
+            "topics": [
+              "agent-native",
+              "agent-runtime",
+              "agent-sandbox",
+              "agentic-ai",
+              "ai-agents",
+              "claude",
+              "code-sandbox",
+              "cursor",
+              "ebpf",
+              "gpu",
+              "kubernetes",
+              "llm",
+              "lxc",
+              "mcp",
+              "model-context-protocol",
+              "multi-tenant",
+              "sandbox",
+              "self-hosted",
+              "ssh"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1530,12 +2501,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Node-local eBPF enforcement that isolates workload zones with BPF-LSM on the Linux syscall path.",
+            "homepage": null,
             "id": 1200893346,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-15T22:59:35Z",
+            "open_issues": 21,
             "owner": "false-systems",
             "repo": "syva",
-            "stars": 11
+            "stars": 11,
+            "topics": [
+              "bpf",
+              "container-security",
+              "containerd",
+              "containers",
+              "ebpf",
+              "isolation",
+              "kubernetes",
+              "linux-security",
+              "lsm",
+              "rust"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1546,12 +2533,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Containment for AI agents - user isolation, sandboxed execution, network controls, backup/rollback. TLA+ verified.",
+            "homepage": null,
             "id": 1193685928,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-25T14:02:33Z",
+            "open_issues": 2,
             "owner": "dredozubov",
             "repo": "hazmat",
-            "stars": 161
+            "stars": 161,
+            "topics": [
+              "ai-agents",
+              "claude-code",
+              "cli",
+              "containment",
+              "developer-tools",
+              "formal-verification",
+              "go",
+              "macos",
+              "pf-firewall",
+              "sandbox",
+              "seatbelt",
+              "security",
+              "tla-plus"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1562,12 +2568,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Run AI agents isolated in a macOS user account and sandbox-exec. Configured to run Claude Code, OpenAI Codex, Cursor Agent, Google Gemini.",
+            "homepage": null,
             "id": 1055377324,
             "language": "Shell",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-23T19:03:50Z",
+            "open_issues": 1,
             "owner": "webcoyote",
             "repo": "sandvault",
-            "stars": 392
+            "stars": 392,
+            "topics": [
+              "claude-code",
+              "macos",
+              "openai-codex",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1578,12 +2594,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Give agents an operating system as a library. Runs in your existing backend – no sandboxes, VMs, or SaaS. Powered by WebAssembly & V8 isolates.",
+            "homepage": "https://agentos-sdk.dev",
             "id": 753886289,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-27T00:53:55Z",
+            "open_issues": 123,
             "owner": "rivet-dev",
             "repo": "agentos",
-            "stars": 4432
+            "stars": 4433,
+            "topics": [
+              "agent",
+              "ai",
+              "javascript",
+              "llm",
+              "sandbox",
+              "v8",
+              "wasm",
+              "webassembly"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1594,12 +2624,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Low-level unprivileged sandboxing tool used by Flatpak and similar projects",
+            "homepage": null,
             "id": 51868010,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-27T15:51:29Z",
+            "open_issues": 193,
             "owner": "containers",
             "repo": "bubblewrap",
-            "stars": 8522
+            "stars": 8524,
+            "topics": [
+              "linux-containers",
+              "user-namespaces"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         }
@@ -1616,12 +2654,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "cMCP: Confidential MCP Gateway. Hardware-attested policy enforcement for MCP tool calls.",
+            "homepage": null,
             "id": 1258649388,
             "language": "Python",
-            "last_commit": "2026-08-27T23:49:40Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T04:39:30Z",
+            "open_issues": 12,
             "owner": "agentrust-io",
             "repo": "cmcp",
-            "stars": 25
+            "stars": 25,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1632,12 +2675,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Cryptographically signed policies that constrain AI agent behavior. Same attestation primitives as cilock, applied to agent execution: identity binding via MCP, JWT + signing-key separation, sublayouts for sub-agents.",
+            "homepage": "https://aflock.ai",
             "id": 1137159578,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-24T02:08:20Z",
+            "open_issues": 25,
             "owner": "aflock-ai",
             "repo": "aflock",
-            "stars": 25
+            "stars": 25,
+            "topics": [
+              "agent-security",
+              "ai-agents",
+              "ai-safety",
+              "attestation",
+              "golang",
+              "mcp",
+              "signed-policy",
+              "sigstore",
+              "supply-chain-security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1648,12 +2706,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1160918255,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-10T14:17:32Z",
+            "open_issues": 19,
             "owner": "mandible-ai",
             "repo": "mandible",
-            "stars": 12
+            "stars": 12,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1664,12 +2727,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Lightweight Agent Detection & Response (ADR) layer for AI agents — guards commands, files, and web requests. Part of Gen Agent Trust Hub.",
+            "homepage": "https://ai.gendigital.com/sage",
             "id": 1156212587,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-13T08:05:52Z",
+            "open_issues": 7,
             "owner": "gendigitalinc",
             "repo": "sage",
-            "stars": 268
+            "stars": 268,
+            "topics": [
+              "agents",
+              "ai",
+              "claude-code",
+              "claude-code-plugin",
+              "cursor-ai",
+              "cursor-extension",
+              "openclaw",
+              "security",
+              "vscode-extension"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1680,12 +2758,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents",
+            "homepage": null,
             "id": 1047834582,
             "language": "C",
+            "license": null,
             "last_commit": "2025-08-31T10:46:06Z",
+            "open_issues": 0,
             "owner": "m4p1e",
             "repo": "agent-sentinel",
-            "stars": 37
+            "stars": 37,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1696,12 +2779,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "lightweight system-level observability for AI Agents",
+            "homepage": "https://eunomia.dev/agentsight/",
             "id": 1015665264,
             "language": "C",
+            "license": "MIT",
             "last_commit": "2026-08-25T03:03:00Z",
+            "open_issues": 22,
             "owner": "eunomia-bpf",
             "repo": "agentsight",
-            "stars": 613
+            "stars": 613,
+            "topics": [
+              "agent",
+              "ebpf",
+              "llm",
+              "observability"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1712,12 +2805,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "eBPF Information Flow Enforcement for AI Agent safety, security and effectiveness",
+            "homepage": "https://eunomia.dev/actplane/",
             "id": 1247115218,
             "language": "C",
-            "last_commit": "2026-08-28T09:13:48Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T02:40:11Z",
+            "open_issues": 2,
             "owner": "eunomia-bpf",
             "repo": "ActPlane",
-            "stars": 93
+            "stars": 93,
+            "topics": [
+              "ebpf",
+              "harness",
+              "ifc",
+              "policy-engine"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1728,12 +2831,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "lightweight system-level observability for AI Agents",
+            "homepage": "https://eunomia.dev/agentsight/",
             "id": 1015665264,
             "language": "C",
+            "license": "MIT",
             "last_commit": "2026-08-25T03:03:00Z",
+            "open_issues": 22,
             "owner": "eunomia-bpf",
             "repo": "agentsight",
-            "stars": 613
+            "stars": 613,
+            "topics": [
+              "agent",
+              "ebpf",
+              "llm",
+              "observability"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1744,12 +2857,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Kernel-level eBPF sandbox for securing LLM agent tool calls made through the Model Context Protocol (MCP)",
+            "homepage": null,
             "id": 1243962929,
             "language": "C",
+            "license": "MIT",
             "last_commit": "2026-07-22T01:10:58Z",
+            "open_issues": 1,
             "owner": "facebook",
             "repo": "mcpguard-dynamic",
-            "stars": 73
+            "stars": 73,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1760,12 +2878,26 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "eBPF-based per-tool syscall attribution and enforcement for LLM agents",
+            "homepage": null,
             "id": 1180815125,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-23T15:53:27Z",
+            "open_issues": 0,
             "owner": "altugbozkurt07",
             "repo": "ironscope",
-            "stars": 10
+            "stars": 10,
+            "topics": [
+              "ai-agents",
+              "bpf",
+              "ebpf",
+              "langchain",
+              "langraph",
+              "llm-security",
+              "python",
+              "runtime-security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1776,12 +2908,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "MCP Monitoring with eBPF",
+            "homepage": null,
             "id": 1021571950,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-01-16T08:54:18Z",
+            "open_issues": 11,
             "owner": "alex-ilgayev",
             "repo": "MCPSpy",
-            "stars": 517
+            "stars": 517,
+            "topics": [
+              "ai",
+              "ai-security",
+              "llm",
+              "mcp",
+              "monitoring",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1792,12 +2936,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Selectively permeable boundary for AI agents",
+            "homepage": null,
             "id": 1084356521,
             "language": "Go",
+            "license": null,
             "last_commit": "2026-04-28T18:15:36Z",
+            "open_issues": 2,
             "owner": "noperator",
             "repo": "membrane",
-            "stars": 64
+            "stars": 64,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1808,12 +2957,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An open-source, next-generation \"runc\" that empowers rootless containers to run workloads such as Systemd, Docker, Kubernetes, just like VMs.",
+            "homepage": null,
             "id": 284555713,
             "language": "Shell",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T21:36:30Z",
+            "open_issues": 212,
             "owner": "nestybox",
             "repo": "sysbox",
-            "stars": 3843
+            "stars": 3843,
+            "topics": [
+              "container-runtime-security",
+              "container-runtimes",
+              "containers",
+              "devops",
+              "docker",
+              "kubernetes"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1824,12 +2985,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Security firewall for agents",
+            "homepage": "https://clawpatrol.dev",
             "id": 1223425250,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-19T03:28:21Z",
+            "open_issues": 101,
             "owner": "denoland",
             "repo": "clawpatrol",
-            "stars": 1032
+            "stars": 1033,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1840,12 +3006,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A policy enforcement runtime for AI agents",
+            "homepage": "https://contextforge-org.github.io/cpex",
             "id": 1118936644,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-24T06:18:27Z",
+            "open_issues": 51,
             "owner": "contextforge-org",
             "repo": "cpex",
-            "stars": 12
+            "stars": 12,
+            "topics": [
+              "a2a",
+              "agents",
+              "ai",
+              "extensibility",
+              "framework",
+              "hooks",
+              "library",
+              "llm",
+              "mcp",
+              "plugins",
+              "safety",
+              "security",
+              "tools"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1856,12 +3041,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Transparent telemetry collector for hi-fidelity agent traces",
+            "homepage": "https://tapes.dev",
             "id": 1135990494,
             "language": "Go",
-            "last_commit": "2026-08-28T23:22:23Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T00:04:07Z",
+            "open_issues": 12,
             "owner": "papercomputeco",
             "repo": "tapes",
-            "stars": 318
+            "stars": 318,
+            "topics": [
+              "agentops",
+              "ai",
+              "otel",
+              "telemtry"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1872,12 +3067,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A manager for AI coding agents that works with Claude Code, Cursor, Gemini, Codex, and Qwen.",
+            "homepage": "https://endor.dev/rover",
             "id": 1024231290,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-03-27T13:27:57Z",
+            "open_issues": 42,
             "owner": "endorhq",
             "repo": "rover",
-            "stars": 271
+            "stars": 271,
+            "topics": [
+              "agentic-ai",
+              "ai",
+              "ai-agents",
+              "claude",
+              "codex",
+              "gemini",
+              "qwen"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1888,12 +3096,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Security proxy for AI agents. Scans every message for prompt injection, PII, and secrets. Defense-in-depth: Go proxy + iptables firewall + eBPF kernel monitor. YAML policy engine, audit logging, 5 AI agents with RAG knowledge bases.",
+            "homepage": null,
             "id": 1169676112,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-03-26T20:29:39Z",
+            "open_issues": 10,
             "owner": "SleuthCo",
             "repo": "clawshield-public",
-            "stars": 130
+            "stars": 130,
+            "topics": [
+              "ai-agents",
+              "ai-security",
+              "audit-logging",
+              "defense-in-depth",
+              "ebpf",
+              "go",
+              "llm-security",
+              "openclaw",
+              "pii-detection",
+              "prompt-injection",
+              "reverse-proxy",
+              "security-proxy",
+              "vulnerability-scanning"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1904,12 +3131,25 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🦞 Your agent's exoskeleton. Immutable Cedar policy boundaries for MCP tool access.",
+            "homepage": null,
             "id": 1177212486,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-22T13:50:33Z",
+            "open_issues": 0,
             "owner": "clawdreyhepburn",
             "repo": "carapace",
-            "stars": 4
+            "stars": 4,
+            "topics": [
+              "ai-agents",
+              "authorization",
+              "cedar",
+              "cedarling",
+              "mcp",
+              "openclaw",
+              "policy-engine"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1920,12 +3160,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Cedar policy evaluation for OVID agent mandates — enforcement, audit, and dashboard",
+            "homepage": null,
             "id": 1190026546,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-22T13:59:18Z",
+            "open_issues": 0,
             "owner": "clawdreyhepburn",
             "repo": "ovid-me",
-            "stars": 2
+            "stars": 2,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1936,12 +3181,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "an implementation of the ideas in Erik Meijer's \"Guardians of the Agents: Formal Verification of AI Workflows\" (Communications of the ACM, January 2026)",
+            "homepage": null,
             "id": 1205629422,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-07-16T16:00:06Z",
+            "open_issues": 1,
             "owner": "metareflection",
             "repo": "guardians",
-            "stars": 149
+            "stars": 149,
+            "topics": [
+              "llm",
+              "verification"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1952,12 +3205,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A Claude code security hook tool",
+            "homepage": null,
             "id": 1108045849,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-04-27T00:15:32Z",
+            "open_issues": 2,
             "owner": "ihavespoons",
             "repo": "hooksy",
-            "stars": 7
+            "stars": 7,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1968,12 +3226,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Deterministic safety floor for tool-using AI agents: pre-execution gating, SafeFix suggestions, attack-chain detection, opt-in self-learning LLM judge. Papers: arXiv 2605.04785, 2606.08539",
+            "homepage": "https://arxiv.org/abs/2605.04785",
             "id": 1192336773,
             "language": "Python",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-19T10:09:48Z",
+            "open_issues": 0,
             "owner": "chenglin1112",
             "repo": "AgentTrust",
-            "stars": 28
+            "stars": 28,
+            "topics": [
+              "agent",
+              "ai-safety",
+              "benchmark",
+              "guardrails",
+              "llm",
+              "mcp",
+              "python",
+              "security",
+              "trustworthiness"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -1984,12 +3257,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source runtime AI agent security tool - monitors and controls AI agents, catching malicious tool use, prompt injection, and policy drift in real time, before the agent acts.",
+            "homepage": "https://secureagentics.ai",
             "id": 1236053139,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-20T09:00:41Z",
+            "open_issues": 6,
             "owner": "secureagentics",
             "repo": "Adrian",
-            "stars": 550
+            "stars": 550,
+            "topics": [
+              "aarm",
+              "agent-security",
+              "agentic-ai",
+              "agentic-security",
+              "agents",
+              "ai",
+              "ai-agents",
+              "ai-governance",
+              "ai-security",
+              "langchain",
+              "langgraph",
+              "llm-security",
+              "mcp",
+              "mcp-security",
+              "observability",
+              "openai-agents",
+              "prompt-injection",
+              "runtime-security",
+              "self-hosted",
+              "threat-detection"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2000,12 +3299,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Falco-powered policy and visibility layer for AI coding agents",
+            "homepage": null,
             "id": 1185162402,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-27T15:04:25Z",
+            "open_issues": 7,
             "owner": "falcosecurity",
             "repo": "prempti",
-            "stars": 201
+            "stars": 201,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2016,12 +3320,32 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Policy guardrails for coding agents (Claude Code, Codex, Cursor) — every tool call is checked locally, before it runs.",
+            "homepage": "https://agentjail.io",
             "id": 1259052145,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-25T07:54:36Z",
+            "open_issues": 2,
             "owner": "LuD1161",
             "repo": "agentjail",
-            "stars": 79
+            "stars": 79,
+            "topics": [
+              "agent-security",
+              "ai-agents",
+              "claude-code",
+              "codex",
+              "cursor",
+              "devsecops",
+              "golang",
+              "guardrails",
+              "llm",
+              "opa",
+              "policy-as-code",
+              "rego",
+              "sandbox",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2032,12 +3356,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Fail-closed execution firewall for AI agents: quarantine MCP tools, proxy OpenAI-compatible requests, emit signed receipts, and verify EvidencePacks offline.",
+            "homepage": "https://helm.docs.mindburn.org/",
             "id": 1158479649,
             "language": "Go",
-            "last_commit": "2026-08-28T20:01:33Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T04:06:07Z",
+            "open_issues": 2,
             "owner": "Mindburn-Labs",
             "repo": "helm-ai-kernel",
-            "stars": 57
+            "stars": 57,
+            "topics": [
+              "agent-security",
+              "ai-agents",
+              "ai-security",
+              "cli",
+              "developer-tools",
+              "devsecops",
+              "evidencepack",
+              "execution-boundary",
+              "go",
+              "llm-security",
+              "mcp",
+              "model-context-protocol",
+              "offline-verification",
+              "openai-compatible",
+              "policy-engine",
+              "proofgraph",
+              "sandbox",
+              "self-hosted",
+              "signed-receipts",
+              "zero-trust"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2048,12 +3398,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OS-level runtime auditing for unpredictable automation.",
+            "homepage": null,
             "id": 1156345832,
             "language": "Go",
-            "last_commit": "2026-08-23T03:32:42Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-28T23:39:25Z",
+            "open_issues": 1,
             "owner": "melonattacker",
             "repo": "logira",
-            "stars": 76
+            "stars": 76,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2064,12 +3419,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source endpoint and telemetry control plane for AI coding agents, with EDR-backed tamper detection, spend monitoring, prompt/DLP visibility, and response automation.",
+            "homepage": null,
             "id": 1275697001,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-06-21T03:45:31Z",
+            "open_issues": 0,
             "owner": "hellnbak",
             "repo": "AgentLens",
-            "stars": 2
+            "stars": 2,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2080,12 +3440,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The open standard for runtime agent control — declarative hooks, policy enforcement, and observability across AI agent frameworks.",
+            "homepage": "https://agentcontrolstandard.org",
             "id": 1207394925,
             "language": null,
+            "license": "Apache-2.0",
             "last_commit": "2026-08-11T23:59:41Z",
+            "open_issues": 24,
             "owner": "GenAI-Security-Project",
             "repo": "agent-control-standard",
-            "stars": 62
+            "stars": 62,
+            "topics": [
+              "agent-safety",
+              "ai-agents",
+              "governance",
+              "middleware",
+              "observability",
+              "open-standard",
+              "opentelemetry",
+              "owasp",
+              "policy-enforcement",
+              "runtime-control"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2096,12 +3472,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Security layer for AI coding agents. Works with Claude Code, Cursor, Windsurf, Gemini CLI, OpenCode, Pi Agent and more.",
+            "homepage": "https://safedep.io",
             "id": 1144804405,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T15:51:01Z",
+            "open_issues": 7,
             "owner": "safedep",
             "repo": "gryph",
-            "stars": 159
+            "stars": 159,
+            "topics": [
+              "ai-agents",
+              "ai-developer-tools",
+              "claude-code",
+              "gemini-cli",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2112,12 +3499,34 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Observability for AI agents. See what your agent did, why it cost that much, and what to fix.",
+            "homepage": "https://siddhantkhare.com/writing/agent-observability-gap",
             "id": 1182227663,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-22T19:07:56Z",
+            "open_issues": 8,
             "owner": "Siddhant-K-code",
             "repo": "agent-trace",
-            "stars": 90
+            "stars": 90,
+            "topics": [
+              "agent-observability",
+              "agent-trace",
+              "agent-traces",
+              "agents",
+              "ai-agents",
+              "cli",
+              "datadog",
+              "developer-tools",
+              "honeycomb",
+              "llm-tools",
+              "observability",
+              "opentelemetry",
+              "strace",
+              "trace",
+              "traces",
+              "tracing"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2128,12 +3537,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Orchestration and memory for multi-agent systems",
+            "homepage": "https://amtp-protocol.org/",
             "id": 1042439251,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-19T22:08:23Z",
+            "open_issues": 0,
             "owner": "amtp-protocol",
             "repo": "agentry",
-            "stars": 17
+            "stars": 17,
+            "topics": [
+              "agentic-ai",
+              "agents",
+              "amtp",
+              "gateway"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2144,12 +3563,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Sample showing how to add Dapr (with mTLS via Sentry) in front of an A2A Java sample so the client invokes the server through a Dapr sidecar.",
+            "homepage": null,
             "id": 1073030336,
             "language": null,
+            "license": "Apache-2.0",
             "last_commit": "2025-10-09T14:40:27Z",
+            "open_issues": 0,
             "owner": "diagrid-labs",
             "repo": "dapr-a2a",
-            "stars": 0
+            "stars": 0,
+            "topics": [
+              "agentic-ai",
+              "dapr",
+              "demo",
+              "java"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2160,12 +3589,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers.",
+            "homepage": "https://stacklok.com/download/",
             "id": 947349598,
             "language": "Go",
-            "last_commit": "2026-08-28T20:28:37Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T02:50:43Z",
+            "open_issues": 376,
             "owner": "stacklok",
             "repo": "toolhive",
-            "stars": 2053
+            "stars": 2054,
+            "topics": [
+              "ai",
+              "ai-security",
+              "aicodeassistant",
+              "golang",
+              "kubernetes",
+              "mcp",
+              "mcp-security",
+              "mcp-servers",
+              "mcp-tools",
+              "model-context-protocol",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2176,12 +3622,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+            "homepage": null,
             "id": 1171111467,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-25T18:09:18Z",
+            "open_issues": 249,
             "owner": "microsoft",
             "repo": "agent-governance-toolkit",
-            "stars": 6142
+            "stars": 6143,
+            "topics": [
+              "agent-framework",
+              "ai-agents",
+              "ai-safety",
+              "compliance",
+              "governance",
+              "microsoft",
+              "owasp",
+              "policy-engine",
+              "python",
+              "security",
+              "trust",
+              "zero-trust"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2192,12 +3656,30 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+            "homepage": null,
             "id": 1171111467,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-25T18:09:18Z",
+            "open_issues": 249,
             "owner": "microsoft",
             "repo": "agent-governance-toolkit",
-            "stars": 6142
+            "stars": 6143,
+            "topics": [
+              "agent-framework",
+              "ai-agents",
+              "ai-safety",
+              "compliance",
+              "governance",
+              "microsoft",
+              "owasp",
+              "policy-engine",
+              "python",
+              "security",
+              "trust",
+              "zero-trust"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2208,12 +3690,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Reference parser and interpreter for the Dogwood policy language",
+            "homepage": "https://dogwood-policy.github.io/dogwood/",
             "id": 1314283317,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-12T15:28:06Z",
+            "open_issues": 0,
             "owner": "dogwood-policy",
             "repo": "dogwood",
-            "stars": 373
+            "stars": 373,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2224,12 +3711,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "micromize is a security hardening tool designed to detect and break the post-exploit kill chain for containerized applications, leveraging BPF LSM.",
+            "homepage": "https://micromize.dev",
             "id": 1099354702,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-24T18:06:08Z",
+            "open_issues": 34,
             "owner": "micromize-dev",
             "repo": "micromize",
-            "stars": 52
+            "stars": 52,
+            "topics": [
+              "bpf",
+              "ebpf",
+              "inspektor-gadget",
+              "kubernetes",
+              "lsm",
+              "security"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2240,12 +3739,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Inspektor Gadget is a set of tools and framework for data collection and system inspection on Kubernetes clusters and Linux hosts using eBPF",
+            "homepage": "https://www.inspektor-gadget.io",
             "id": 181724380,
             "language": "C",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T03:04:56Z",
+            "open_issues": 429,
             "owner": "inspektor-gadget",
             "repo": "inspektor-gadget",
-            "stars": 2914
+            "stars": 2914,
+            "topics": [
+              "bpf",
+              "bpf-programs",
+              "cncf-project",
+              "ebpf",
+              "ebpf-programs",
+              "inspektor-gadget",
+              "kinvolk",
+              "kubernetes",
+              "prometheus-exporter",
+              "prometheus-metrics"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2256,12 +3771,36 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Python SDK for accurate and verifiable agent tool use. Agents verify that answers came from the right source and were not changed. Downstream agents detect 100% of errors and retry to achieve a 50% jump in answer accuracy.",
+            "homepage": "http://provably.ai/",
             "id": 1222392614,
             "language": "Python",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-28T12:58:24Z",
+            "open_issues": 15,
             "owner": "ProvablyAI",
             "repo": "sourcerykit",
-            "stars": 19
+            "stars": 19,
+            "topics": [
+              "agent-reliability",
+              "agent-security",
+              "ai-agents",
+              "ai-guardrails",
+              "ai-security",
+              "langchain",
+              "langgraph",
+              "llm-firewall",
+              "llm-security",
+              "mcp",
+              "mcp-security",
+              "model-context-protocol",
+              "prompt-injection",
+              "python-sdk",
+              "security",
+              "sourcerykit",
+              "tool-calling",
+              "zero-knowledge-proofs"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2272,12 +3811,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": " Self-hosted runtime control plane for AI agents. Observe or HITL approve or Block rogue tool calls before it executes: secret leaks, prompt injection, supply chain etc in a local dashboard. Agent agnostic (Claude,codex etc.)",
+            "homepage": "https://prismor.dev",
             "id": 1162750276,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T01:50:31Z",
+            "open_issues": 41,
             "owner": "PrismorSec",
             "repo": "prismor",
-            "stars": 336
+            "stars": 336,
+            "topics": [
+              "agent-control-plane",
+              "agent-security",
+              "agents",
+              "ai-agents",
+              "ai-security",
+              "claude-code",
+              "control-plane",
+              "cursor",
+              "cybersecurity",
+              "devsecops",
+              "guardrails",
+              "llm-security",
+              "mcp",
+              "owasp",
+              "prompt-injection",
+              "secrets-management",
+              "security",
+              "skill-scanner",
+              "supply-chain-security",
+              "tool-calls"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2288,12 +3853,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Conformance vector suite and reference verifier for the adversarial-execution-evidence in-toto predicate",
+            "homepage": null,
             "id": 1308063727,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-28T20:20:16Z",
+            "open_issues": 2,
             "owner": "astrogilda",
             "repo": "aee-conformance",
-            "stars": 3
+            "stars": 3,
+            "topics": [
+              "ai-agents",
+              "attestation",
+              "canonicalization",
+              "conformance-testing",
+              "golang",
+              "in-toto",
+              "provenance",
+              "python",
+              "supply-chain-security",
+              "test-vectors"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         }
@@ -2310,12 +3891,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "An egress firewall for untrusted workloads.",
+            "homepage": "https://docs.iron.sh",
             "id": 1198724226,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T19:53:31Z",
+            "open_issues": 26,
             "owner": "paradigmxyz",
             "repo": "iron-proxy",
-            "stars": 638
+            "stars": 638,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2326,12 +3912,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "ephemeral credentials for agents using macaroons and envoy as a transparent proxy",
+            "homepage": null,
             "id": 1137201302,
             "language": "Go",
-            "last_commit": "2026-08-28T23:08:18Z",
+            "license": "MIT",
+            "last_commit": "2026-08-29T00:06:19Z",
+            "open_issues": 0,
             "owner": "dtkav",
             "repo": "agent-creds",
-            "stars": 31
+            "stars": 31,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2342,12 +3933,24 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Security gateway for AI agents - credential-isolated API proxying and policy-gated remote execution (conclaves). Reduce the blast radius!",
+            "homepage": "https://wardgate.com/",
             "id": 1148664539,
             "language": "Go",
+            "license": "AGPL-3.0",
             "last_commit": "2026-03-11T14:57:55Z",
+            "open_issues": 1,
             "owner": "wardgate",
             "repo": "wardgate",
-            "stars": 136
+            "stars": 136,
+            "topics": [
+              "agentic-ai",
+              "agentic-workflow",
+              "api-gateway",
+              "openclaw",
+              "security",
+              "tool-gateway"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2358,12 +3961,31 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The secure gateway connecting AI agents to enterprise systems.",
+            "homepage": "https://wardengateway.com",
             "id": 1104230859,
             "language": "Go",
+            "license": "MPL-2.0",
             "last_commit": "2026-08-28T18:24:13Z",
+            "open_issues": 6,
             "owner": "stephnangue",
             "repo": "warden",
-            "stars": 150
+            "stars": 151,
+            "topics": [
+              "ai-agents",
+              "ai-auditing",
+              "ai-compliance",
+              "ai-governance",
+              "credential-management",
+              "egress-gateway",
+              "go",
+              "mcp-security",
+              "openbao",
+              "security",
+              "spiffe",
+              "workload-access-management",
+              "zero-trust"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2374,12 +3996,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Cloud native zero trust security for AI agents run environments",
+            "homepage": "https://getkloak.io",
             "id": 1152263249,
             "language": "C",
+            "license": "AGPL-3.0",
             "last_commit": "2026-08-25T18:24:07Z",
+            "open_issues": 25,
             "owner": "spinningfactory",
             "repo": "kloak",
-            "stars": 270
+            "stars": 272,
+            "topics": [
+              "bpf",
+              "ebpf",
+              "kubernetes",
+              "secrets",
+              "secrets-management"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2390,12 +4023,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The local runtime control layer for OpenClaw/Hermes-agent, PII & sensitive credentials protection.",
+            "homepage": "https://clawshell.org",
             "id": 1157400044,
             "language": "Rust",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-13T18:45:51Z",
+            "open_issues": 14,
             "owner": "runta-dev",
             "repo": "clawshell",
-            "stars": 342
+            "stars": 342,
+            "topics": [
+              "ai",
+              "credentials",
+              "harness",
+              "hermes",
+              "hermes-agent",
+              "moltbot",
+              "openclaw",
+              "pii",
+              "rust",
+              "secuirty"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2406,12 +4055,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open-source sandboxed agent harness for teams. Giving every employee a secured personal agent.",
+            "homepage": "https://onecli.sh",
             "id": 1175900220,
             "language": "TypeScript",
-            "last_commit": "2026-08-28T17:45:44Z",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-29T00:22:50Z",
+            "open_issues": 131,
             "owner": "onecli",
             "repo": "onecli",
-            "stars": 3423
+            "stars": 3423,
+            "topics": [
+              "ai-agents",
+              "cli",
+              "mcp",
+              "nodejs",
+              "postgres",
+              "rust",
+              "secret-management",
+              "security",
+              "security-tools",
+              "vault"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2422,12 +4087,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "🐚 A forward proxy that injects credentials to Docker sandboxes",
+            "homepage": null,
             "id": 1289136794,
             "language": "Go",
+            "license": null,
             "last_commit": "2026-07-28T22:27:27Z",
+            "open_issues": 0,
             "owner": "yagop",
             "repo": "sandbox",
-            "stars": 4
+            "stars": 4,
+            "topics": [
+              "agent",
+              "ai",
+              "docker",
+              "sandbox"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2438,12 +4113,28 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "One command to keep secrets out of AI (LLMs). Works with Claude Code, Cursor, Copilot, Windsurf, and any AI coding tool.",
+            "homepage": "https://opena2a.org/secretless",
             "id": 1153346935,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T11:58:04Z",
+            "open_issues": 22,
             "owner": "opena2a-org",
             "repo": "secretless-ai",
-            "stars": 24
+            "stars": 24,
+            "topics": [
+              "ai-security",
+              "claude-code",
+              "cli",
+              "credentials",
+              "devsecops",
+              "llm-security",
+              "mcp",
+              "secret-management",
+              "secret-scanning",
+              "secrets"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2454,12 +4145,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "enject: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext.",
+            "homepage": null,
             "id": 1163993054,
             "language": "Rust",
+            "license": "MIT",
             "last_commit": "2026-02-26T19:42:37Z",
+            "open_issues": 2,
             "owner": "GreatScott",
             "repo": "enject",
-            "stars": 501
+            "stars": 501,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2470,12 +4166,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Airut is a system for running Claude Code tasks from email and Slack. It handles workspace provisioning, container isolation, network sandboxing, session persistence, and cleanup — a secure foundation for autonomous agentic development.",
+            "homepage": "https://airut.org",
             "id": 1149106347,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-27T07:49:21Z",
+            "open_issues": 1,
             "owner": "airutorg",
             "repo": "airut",
-            "stars": 81
+            "stars": 81,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2486,12 +4187,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A command-line tool that injects credentials to curl requests to known public APIs.",
+            "homepage": null,
             "id": 1135106724,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-28T17:40:33Z",
+            "open_issues": 9,
             "owner": "imbue-ai",
             "repo": "latchkey",
-            "stars": 124
+            "stars": 124,
+            "topics": [
+              "agent-skills",
+              "agentic-ai",
+              "ai-integration",
+              "ai-tools",
+              "authentication",
+              "credentials",
+              "curl",
+              "http",
+              "third-party-api-integration"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2502,12 +4218,38 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Credential gateway for AI agents. Log in once via Oauth2 or API Key. Every agent stays authenticated — headless, no SaaS, agents never see your credentials.",
+            "homepage": "https://authsome.ai/docs",
             "id": 1212456937,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-07-24T23:13:46Z",
+            "open_issues": 11,
             "owner": "agentrhq",
             "repo": "authsome",
-            "stars": 84
+            "stars": 84,
+            "topics": [
+              "agent-identity",
+              "agent-security",
+              "ai-agents",
+              "api-keys",
+              "authentication",
+              "claude-code",
+              "cli",
+              "credential-manager",
+              "developer-tools",
+              "headless",
+              "hermes-agent",
+              "llm",
+              "local-first",
+              "mcp",
+              "oauth2",
+              "openclaw",
+              "python",
+              "secrets-management",
+              "security-tools",
+              "vault"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2518,12 +4260,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Authenticating proxy server for connecting to 3rd party APIs",
+            "homepage": null,
             "id": 828198860,
             "language": "Go",
+            "license": "MIT",
             "last_commit": "2026-08-28T21:41:44Z",
+            "open_issues": 42,
             "owner": "rmorlok",
             "repo": "authproxy",
-            "stars": 17
+            "stars": 17,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2534,12 +4281,27 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "LEASH — Lightweight Encrypted Agent Secret Handling. A proposed companion standard to MCP for secure, auditable, human-controlled secret access by AI agents.",
+            "homepage": null,
             "id": 1154865417,
             "language": null,
+            "license": null,
             "last_commit": "2026-02-10T21:34:44Z",
+            "open_issues": 0,
             "owner": "vettid",
             "repo": "LEASH",
-            "stars": 7
+            "stars": 7,
+            "topics": [
+              "agentic-ai",
+              "ai-agents",
+              "leash",
+              "mcp",
+              "position-paper",
+              "protocol-specification",
+              "secrets-management",
+              "security",
+              "zero-knowledge"
+            ]
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         }
@@ -2556,12 +4318,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "explainer for AAuth ",
+            "homepage": null,
             "id": 1083355209,
             "language": "Makefile",
+            "license": null,
             "last_commit": "2026-08-20T12:47:13Z",
+            "open_issues": 16,
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 110
+            "stars": 110,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2572,12 +4339,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "explainer for AAuth ",
+            "homepage": null,
             "id": 1083355209,
             "language": "Makefile",
+            "license": null,
             "last_commit": "2026-08-20T12:47:13Z",
+            "open_issues": 16,
             "owner": "dickhardt",
             "repo": "AAuth",
-            "stars": 110
+            "stars": 110,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2588,12 +4360,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open specification for cryptographic agent authorization in commerce",
+            "homepage": null,
             "id": 1173370009,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-04-20T20:43:36Z",
+            "open_issues": 28,
             "owner": "agent-intent",
             "repo": "verifiable-intent",
-            "stars": 87
+            "stars": 87,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2604,12 +4381,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Transaction Tokens (RFC 8693) for Kubernetes — seal identity, context, and authorization across multi-hop agent workflows via AgentGateway + ext_authz.",
+            "homepage": null,
             "id": 1200201135,
             "language": "Go",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-12T23:16:08Z",
+            "open_issues": 2,
             "owner": "aramase",
             "repo": "kontxt",
-            "stars": 26
+            "stars": 26,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2620,12 +4402,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Profiling of OpenID SET for Workload Identity Events",
+            "homepage": null,
             "id": 1291464993,
             "language": "HTML",
+            "license": null,
             "last_commit": "2026-07-29T12:34:54Z",
+            "open_issues": 8,
             "owner": "identitymonk",
             "repo": "openid-wise",
-            "stars": 6
+            "stars": 6,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:33:20.986Z"
         },
@@ -2641,12 +4428,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Distributed Announce and Discovery of Multi-Agentic-Systems",
+                "homepage": "https://agntcy.github.io/dir/",
                 "id": 930322459,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T16:15:42Z",
+                "open_issues": 74,
                 "owner": "agntcy",
                 "repo": "dir",
-                "stars": 177
+                "stars": 177,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -2657,12 +4449,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DNS-based Agent Identification and Discovery - Reference Implementation for IETF BANDAID",
+                "homepage": null,
                 "id": 1150940043,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-20T04:10:29Z",
+                "open_issues": 24,
                 "owner": "dns-aid",
                 "repo": "dns-aid-core",
-                "stars": 62
+                "stars": 62,
+                "topics": [
+                  "a2a",
+                  "agent-discovery",
+                  "ai-agents",
+                  "bandaid",
+                  "dns",
+                  "dns-aid",
+                  "dnssec",
+                  "ietf",
+                  "linux-foundation",
+                  "mcp",
+                  "svcb"
+                ]
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             }
@@ -2680,12 +4489,36 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ZeroID: Autonomous Agent Identity Management System (AAIMS)",
+                "homepage": "https://highflame.com/",
                 "id": 1184162680,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T15:17:36Z",
+                "open_issues": 47,
                 "owner": "highflame-ai",
                 "repo": "zeroid",
-                "stars": 161
+                "stars": 161,
+                "topics": [
+                  "agent-authentication",
+                  "ai-agents",
+                  "authentication",
+                  "credentials",
+                  "golang",
+                  "identity",
+                  "jwt",
+                  "machine-identity",
+                  "mcp",
+                  "nhi",
+                  "non-human-identity",
+                  "oauth2",
+                  "postgresql",
+                  "rfc822",
+                  "rfc8693",
+                  "spiffe",
+                  "token-exchange",
+                  "wimse"
+                ]
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -2696,12 +4529,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The IAM layer for AI agents: cryptographic identity, capability authorization, and audit trails for non-human identities. Open source.",
+                "homepage": "https://opena2a.org",
                 "id": 1070451287,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T06:07:45Z",
+                "open_issues": 18,
                 "owner": "opena2a-org",
                 "repo": "agent-identity-management",
-                "stars": 56
+                "stars": 56,
+                "topics": [
+                  "agent-identity-management",
+                  "agent-security",
+                  "ai-agents",
+                  "audit-trail",
+                  "authorization",
+                  "cryptography",
+                  "ed25519",
+                  "iam",
+                  "identity-management",
+                  "mcp-servers",
+                  "nhi",
+                  "nhi-governance",
+                  "non-human-identity",
+                  "open-source-security",
+                  "tool"
+                ]
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -2712,12 +4566,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agent Identity Protocol - Zero-trust security layer for AI agents. Policy enforcement proxy for MCP with Human-in-the-Loop approval, DLP scanning, and audit logging.",
+                "homepage": "https://github.com/openagentidentityprotocol/openagentidentityprotocol#readme",
                 "id": 1138044980,
                 "language": null,
+                "license": "Apache-2.0",
                 "last_commit": "2026-03-05T13:49:19Z",
+                "open_issues": 6,
                 "owner": "openagentidentityprotocol",
                 "repo": "agentidentityprotocol",
-                "stars": 37
+                "stars": 37,
+                "topics": [
+                  "agent-identity-protocol",
+                  "ai-agents",
+                  "ai-safety",
+                  "cursor-ide",
+                  "dlp",
+                  "golang",
+                  "human-in-the-loop",
+                  "llm",
+                  "mcp",
+                  "model-context-protocol",
+                  "policy-enforcement",
+                  "security",
+                  "zero-trust"
+                ]
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -2728,12 +4601,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PIC Protocol - Specification",
+                "homepage": "https://www.pic-protocol.org",
                 "id": 1110356619,
                 "language": "HTML",
+                "license": "CC-BY-4.0",
                 "last_commit": "2026-08-15T17:05:41Z",
+                "open_issues": 0,
                 "owner": "pic-protocol",
                 "repo": "pic-spec",
-                "stars": 22
+                "stars": 22,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -2744,12 +4622,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AIS-1 Agent Identity Standard — open standard for AI agent identity",
+                "homepage": null,
                 "id": 1195082235,
                 "language": "HTML",
+                "license": null,
                 "last_commit": "2026-08-16T01:18:36Z",
+                "open_issues": 17,
                 "owner": "Kadikoy1",
                 "repo": "ais-1",
-                "stars": 8
+                "stars": 8,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -2760,12 +4643,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "AGent Based Access Control (AGBAC) is is an open, vendor-neutral security specification that defines how AI agents securely perform actions on behalf of humans using existing IAM technologies",
+                "homepage": null,
                 "id": 1108332437,
                 "language": null,
+                "license": "Apache-2.0",
                 "last_commit": "2026-02-28T10:49:32Z",
+                "open_issues": 0,
                 "owner": "kahalewai",
                 "repo": "agbac",
-                "stars": 8
+                "stars": 8,
+                "topics": [
+                  "access-control",
+                  "agent",
+                  "agentic",
+                  "agents",
+                  "ai",
+                  "ai-agent",
+                  "artificial-intelligence",
+                  "auth-n",
+                  "auth-z",
+                  "authentication",
+                  "authorization",
+                  "dual-subject",
+                  "enterprise",
+                  "iam",
+                  "innovation",
+                  "llm",
+                  "security",
+                  "technology",
+                  "zero-trust"
+                ]
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             }
@@ -2791,12 +4699,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "The CUSTODY(TM) Framework for AI Agent Containment",
+                    "homepage": "www.custody-framework.org",
                     "id": 1322055568,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-08-03T18:19:30Z",
+                    "open_issues": 0,
                     "owner": "malwarejake",
                     "repo": "CUSTODY-framework",
-                    "stars": 62
+                    "stars": 62,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2807,12 +4720,21 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "An Open Standard for AI Agent Runtime Safety (AARTS)",
+                    "homepage": null,
                     "id": 1173605265,
                     "language": null,
+                    "license": null,
                     "last_commit": "2026-03-05T14:59:46Z",
+                    "open_issues": 2,
                     "owner": "gendigitalinc",
                     "repo": "aarts",
-                    "stars": 17
+                    "stars": 17,
+                    "topics": [
+                      "ai",
+                      "ai-agents",
+                      "cybersecurity"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2823,12 +4745,34 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Open security architecture for autonomous AI agents - extending Zero Trust principles",
+                    "homepage": "https://bluvi.ai/zod",
                     "id": 1150690757,
                     "language": null,
+                    "license": "Apache-2.0",
                     "last_commit": "2026-05-09T04:57:39Z",
+                    "open_issues": 0,
                     "owner": "bluvibytes",
                     "repo": "zone-of-distrust",
-                    "stars": 11
+                    "stars": 11,
+                    "topics": [
+                      "agent-containment",
+                      "agentic-ai",
+                      "ai-agent-security",
+                      "ai-agents",
+                      "ai-governance",
+                      "ai-security",
+                      "autonomous-agents",
+                      "blast-radius",
+                      "containment",
+                      "llm-security",
+                      "prompt-injection",
+                      "security-architecture",
+                      "security-framework",
+                      "threat-model",
+                      "zero-trust",
+                      "zero-trust-security"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2839,12 +4783,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "AGCP — Deterministic Control-Plane Architecture for Execution Governance in AI and Automated Systems",
+                    "homepage": null,
                     "id": 1172936533,
                     "language": "Python",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-14T12:46:03Z",
+                    "open_issues": 0,
                     "owner": "jwillisSFT",
                     "repo": "agcp-spec",
-                    "stars": 7
+                    "stars": 7,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2860,12 +4809,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Specification and documentation for the Model Context Protocol",
+                        "homepage": "https://modelcontextprotocol.io",
                         "id": 862570523,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-28T02:41:38Z",
+                        "license": "NOASSERTION",
+                        "last_commit": "2026-08-29T04:24:44Z",
+                        "open_issues": 141,
                         "owner": "modelcontextprotocol",
                         "repo": "modelcontextprotocol",
-                        "stars": 9072
+                        "stars": 9074,
+                        "topics": [
+                          "docs",
+                          "mcp",
+                          "specification",
+                          "standard"
+                        ]
                       },
                       "first_seen": "2026-08-28T23:33:20.986Z"
                     },
@@ -2876,12 +4835,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "SAF-MCP is a comprehensive security framework for documenting and mitigating threats in the AI Agent ecosystem.",
+                        "homepage": "https://secureagenticframework.org",
                         "id": 1011515224,
                         "language": "Python",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-04T22:59:33Z",
+                        "open_issues": 51,
                         "owner": "secure-agentic-framework",
                         "repo": "saf-mcp",
-                        "stars": 360
+                        "stars": 360,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T23:33:20.986Z"
                     },
@@ -2892,12 +4856,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Repository for CoSAI Workstream 4, Secure Design Patterns for Agentic Systems ",
+                        "homepage": null,
                         "id": 936656487,
                         "language": "Jupyter Notebook",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-26T19:40:52Z",
+                        "open_issues": 58,
                         "owner": "cosai-oasis",
                         "repo": "ws4-secure-design-agentic-systems",
-                        "stars": 130
+                        "stars": 130,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T23:33:20.986Z"
                     },
@@ -2908,12 +4877,23 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "MCP Server Security Standard (MSSS): an open, testable security control standard for certifying MCP servers, with levels, evidence requirements, and reporting schemas.",
+                        "homepage": "https://mcp-security-standard.org/",
                         "id": 1134830523,
                         "language": null,
+                        "license": "CC-BY-SA-4.0",
                         "last_commit": "2026-03-12T15:27:47Z",
+                        "open_issues": 1,
                         "owner": "mcp-security-standard",
                         "repo": "mcp-server-security-standard",
-                        "stars": 74
+                        "stars": 74,
+                        "topics": [
+                          "cybersecurity",
+                          "mcp",
+                          "mcp-security",
+                          "mcp-server",
+                          "standard"
+                        ]
                       },
                       "first_seen": "2026-08-28T23:33:20.986Z"
                     }
@@ -2933,12 +4913,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "SAF-MCP is a comprehensive security framework for documenting and mitigating threats in the AI Agent ecosystem.",
+                    "homepage": "https://secureagenticframework.org",
                     "id": 1011515224,
                     "language": "Python",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-04T22:59:33Z",
+                    "open_issues": 51,
                     "owner": "secure-agentic-framework",
                     "repo": "saf-mcp",
-                    "stars": 360
+                    "stars": 360,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2949,12 +4934,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Repository for CoSAI Workstream 4, Secure Design Patterns for Agentic Systems ",
+                    "homepage": null,
                     "id": 936656487,
                     "language": "Jupyter Notebook",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-26T19:40:52Z",
+                    "open_issues": 58,
                     "owner": "cosai-oasis",
                     "repo": "ws4-secure-design-agentic-systems",
-                    "stars": 130
+                    "stars": 130,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2965,12 +4955,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Repository for CoSAI Workstream 1, Software Supply Chain Security for AI Systems",
+                    "homepage": null,
                     "id": 877389969,
                     "language": null,
+                    "license": "NOASSERTION",
                     "last_commit": "2026-04-27T15:18:44Z",
+                    "open_issues": 11,
                     "owner": "cosai-oasis",
                     "repo": "ws1-supply-chain",
-                    "stars": 56
+                    "stars": 56,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 },
@@ -2981,12 +4976,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A command-line interface tool for creating, managing, and verifying Content Provenance and Authenticity (C2PA) manifests for machine learning models, datasets, and related artifacts.",
+                    "homepage": null,
                     "id": 958176721,
                     "language": "Rust",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-08-19T23:35:36Z",
+                    "open_issues": 17,
                     "owner": "IntelLabs",
                     "repo": "atlas-cli",
-                    "stars": 22
+                    "stars": 22,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 }
@@ -3006,12 +5006,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Large YAML file containing details of AI agent sandboxing solutions",
+                "homepage": null,
                 "id": 1306287993,
                 "language": null,
+                "license": null,
                 "last_commit": "2026-07-21T09:47:48Z",
+                "open_issues": 1,
                 "owner": "pjlsergeant",
                 "repo": "ai-sandboxes",
-                "stars": 8
+                "stars": 8,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -3022,12 +5027,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1062764618,
                 "language": null,
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-22T18:40:21Z",
+                "open_issues": 25,
                 "owner": "ORCA-LF",
                 "repo": "evaluation-criteria-matrix",
-                "stars": 2
+                "stars": 2,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:33:20.986Z"
             },
@@ -3043,12 +5053,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Awesome Code Sandboxing for AI",
+                    "homepage": null,
                     "id": 1018439406,
                     "language": null,
+                    "license": null,
                     "last_commit": "2026-08-12T19:55:27Z",
+                    "open_issues": 1,
                     "owner": "restyler",
                     "repo": "awesome-sandbox",
-                    "stars": 571
+                    "stars": 571,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:33:20.986Z"
                 }
@@ -3064,15 +5079,26 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T23:33:20.986Z",
+    "last_updated": "2026-08-29T04:57:41.156Z",
     "original_repository_info": {
       "archived": false,
+      "description": "Learning something new about runtime security for agents",
+      "homepage": null,
       "id": 1165096078,
       "language": null,
+      "license": "Apache-2.0",
       "last_commit": "2026-08-19T18:28:04Z",
+      "open_issues": 12,
       "owner": "bureado",
       "repo": "awesome-agent-runtime-security",
-      "stars": 103
+      "stars": 103,
+      "topics": [
+        "agentic-ai",
+        "agentic-identity",
+        "awesome-list",
+        "microvms",
+        "sandboxing"
+      ]
     },
     "original_repository_sha": "d3e24287b66e0ba6443d5b03a0f04047f4f9d7ed",
     "enhanced_repository": "enhansome/enhansome-agent-runtime-security",
